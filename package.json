@@ -1,0 +1,16 @@
+{
+  "name": "shoppilot-ai",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "workspaces": [
+    "backend"
+  ],
+  "scripts": {
+    "dev:backend": "npm run start:dev --workspace=backend",
+    "build:backend": "npm run build --workspace=backend"
+  },
+  "overrides": {
+    "multer": "2.5.0"
+  }
+}

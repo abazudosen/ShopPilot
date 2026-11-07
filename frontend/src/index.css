@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  background: #f5f7f3;
+  color: #17211b;
+}
+
+@keyframes ripple {
+  from {
+    transform: scale(1);
+    opacity: 0.5;
+  }
+  to {
+    transform: scale(2.5);
+    opacity: 0;
+  }
+}
+
+.chat-ripple::before,
+.chat-ripple::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 9999px;
+  background-color: #047857;
+  z-index: -1;
+  animation: ripple 2s ease-out infinite;
+}
+
+.chat-ripple::after {
+  animation-delay: 0.6s;
+}

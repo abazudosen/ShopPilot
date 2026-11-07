@@ -1,0 +1,176 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: ecommerce
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "127.0.0.1:5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d ecommerce"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  opensearch:
+    image: opensearchproject/opensearch:2.17.0
+    environment:
+      - discovery.type=single-node
+      - plugins.security.disabled=true
+      - OPENSEARCH_INITIAL_ADMIN_PASSWORD=Str0ng!Pass#2026
+      - "OPENSEARCH_JAVA_OPTS=-Xms512m -Xmx512m"
+    ports:
+      - "127.0.0.1:9200:9200"
+    volumes:
+      - opensearch_data:/usr/share/opensearch/data
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "curl -fsS http://localhost:9200/_cluster/health >/dev/null",
+        ]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+      start_period: 40s
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "127.0.0.1:6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  mailpit:
+    image: axllent/mailpit:v1.21.8
+    ports:
+      - "127.0.0.1:1025:1025"
+      - "127.0.0.1:8025:8025"
+
+  migrate:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+      target: build
+    command: ["npx", "prisma", "migrate", "deploy"]
+    working_dir: /app/backend
+    environment:
+      DATABASE_URL: postgresql://postgres:postgres@postgres:5432/ecommerce?schema=public
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+      target: runtime
+    environment:
+      DATABASE_URL: postgresql://postgres:postgres@postgres:5432/ecommerce?schema=public
+      JWT_SECRET: ${JWT_SECRET:-local-development-secret-change-me}
+      JWT_REFRESH_SECRET: ${JWT_REFRESH_SECRET:-local-development-refresh-secret-change-me}
+      OPENSEARCH_NODE: http://opensearch:9200
+      REDIS_URL: redis://redis:6379
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      KNOWLEDGE_INGESTION_TOKEN: ${KNOWLEDGE_INGESTION_TOKEN:-}
+      MCP_API_TOKEN: ${MCP_API_TOKEN:-}
+      WEBHOOK_SECRETS: ${WEBHOOK_SECRETS:-}
+      STRIPE_SECRET_KEY: ${STRIPE_SECRET_KEY:-}
+      STRIPE_WEBHOOK_SECRET: ${STRIPE_WEBHOOK_SECRET:-}
+      FRONTEND_URL: ${FRONTEND_URL:-http://localhost:8080}
+      SMTP_HOST: mailpit
+      SMTP_PORT: 1025
+      SMTP_SECURE: "false"
+      SMTP_USER: ${SMTP_USER:-}
+      SMTP_PASSWORD: ${SMTP_PASSWORD:-}
+      EMAIL_FROM: ${EMAIL_FROM:-ShopPilot Demo <no-reply@shoppilot.local>}
+      SENTRY_DSN: ${SENTRY_DSN:-}
+      SENTRY_ENVIRONMENT: ${SENTRY_ENVIRONMENT:-local}
+      AI_PROVIDER: ${AI_PROVIDER:-openai}
+      AI_API_KEY: ${AI_API_KEY:-}
+      AI_API_BASE_URL: ${AI_API_BASE_URL:-}
+      OPENAI_CHAT_MODEL: ${OPENAI_CHAT_MODEL:-gpt-4o-mini}
+      OPENAI_EMBEDDING_MODEL: ${OPENAI_EMBEDDING_MODEL:-text-embedding-3-small}
+      OPENAI_FALLBACK_CHAT_MODEL: ${OPENAI_FALLBACK_CHAT_MODEL:-}
+      AI_COST_INPUT_USD_PER_MILLION: ${AI_COST_INPUT_USD_PER_MILLION:-0}
+      AI_COST_OUTPUT_USD_PER_MILLION: ${AI_COST_OUTPUT_USD_PER_MILLION:-0}
+      AI_DAILY_BUDGET_USD: ${AI_DAILY_BUDGET_USD:-0}
+      AI_REQUEST_TIMEOUT_MS: ${AI_REQUEST_TIMEOUT_MS:-20000}
+      OTEL_EXPORTER_OTLP_ENDPOINT: ${OTEL_EXPORTER_OTLP_ENDPOINT:-}
+      METRICS_PORT: 9464
+      METRICS_HOST: 0.0.0.0
+      PORT: 3500
+    ports:
+      - "127.0.0.1:3500:3500"
+      - "127.0.0.1:9464:9464"
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+      opensearch:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      mailpit:
+        condition: service_started
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "node",
+          "-e",
+          "fetch('http://127.0.0.1:3500/api/health').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))",
+        ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+
+  frontend:
+    build:
+      context: frontend
+      dockerfile: Dockerfile
+      args:
+        VITE_SENTRY_DSN: ${VITE_SENTRY_DSN:-}
+        VITE_SENTRY_ENVIRONMENT: ${VITE_SENTRY_ENVIRONMENT:-local}
+    ports:
+      - "127.0.0.1:8080:80"
+    depends_on:
+      backend:
+        condition: service_healthy
+
+  prometheus:
+    image: prom/prometheus:v3.2.1
+    ports:
+      - "127.0.0.1:9090:9090"
+    volumes:
+      - ./backend/observability/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+      - ./backend/observability/alerts.yml:/etc/prometheus/alerts.yml:ro
+    depends_on:
+      backend:
+        condition: service_healthy
+
+  grafana:
+    image: grafana/grafana:11.5.2
+    ports:
+      - "127.0.0.1:3000:3000"
+    environment:
+      GF_SECURITY_ADMIN_USER: admin
+      GF_SECURITY_ADMIN_PASSWORD: ${GRAFANA_ADMIN_PASSWORD:-local-dashboard-password}
+      GF_USERS_ALLOW_SIGN_UP: "false"
+    volumes:
+      - ./backend/observability/grafana/provisioning:/etc/grafana/provisioning:ro
+      - ./backend/observability/grafana/dashboards:/var/lib/grafana/dashboards:ro
+      - grafana_data:/var/lib/grafana
+    depends_on:
+      - prometheus
+
+volumes:
+  postgres_data:
+  opensearch_data:
+  grafana_data:

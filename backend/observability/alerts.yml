@@ -1,0 +1,46 @@
+groups:
+  - name: shoppilot-reliability
+    rules:
+      - alert: ApiErrorRateHigh
+        expr: |
+          sum(rate(http_server_requests_total{http_response_status_code=~"5.."}[5m]))
+          /
+          clamp_min(sum(rate(http_server_requests_total[5m])), 0.001)
+          > 0.05
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: API server error rate is above 5%
+
+      - alert: ApiLatencyHigh
+        expr: |
+          histogram_quantile(
+            0.95,
+            sum by (le) (rate(http_server_duration_seconds_bucket[5m]))
+          ) > 1
+        for: 10m
+        labels:
+          severity: warning
+        annotations:
+          summary: API p95 latency is above one second
+
+      - alert: BackgroundOutboxBacklog
+        expr: outbox_events{status="PENDING"} > 100
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: Transactional outbox backlog exceeds 100 events
+
+      - alert: AiProviderFailures
+        expr: |
+          sum(rate(ai_requests_total{status="FAILED"}[10m]))
+          /
+          clamp_min(sum(rate(ai_requests_total[10m])), 0.001)
+          > 0.1
+        for: 10m
+        labels:
+          severity: warning
+        annotations:
+          summary: AI provider failure rate is above 10%

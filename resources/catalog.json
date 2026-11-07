@@ -1,0 +1,3017 @@
+[
+  {
+    "name": "Apple iPhone 5s",
+    "description": "Classic compact design with 4-inch Retina display, A7 chip with 64-bit architecture, Touch ID, and 8MP iSight camera.",
+    "price": 89.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/iphone-5s/1.webp",
+    "rating": 3.6,
+    "inStock": false,
+    "features": [
+      "A7 64-bit Chip",
+      "Touch ID",
+      "4\" Retina",
+      "8MP iSight"
+    ]
+  },
+  {
+    "name": "Apple iPhone 6",
+    "description": "4.7-inch Retina HD display, A8 chip, 8MP iSight camera, Touch ID, and Apple Pay support.",
+    "price": 149.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/iphone-6/1.webp",
+    "rating": 4,
+    "inStock": true,
+    "features": [
+      "A8 Chip",
+      "Touch ID",
+      "Retina HD",
+      "Apple Pay"
+    ]
+  },
+  {
+    "name": "Apple iPhone 7",
+    "description": "Water resistant design, A10 Fusion chip, 12MP camera with OIS, stereo speakers, and no headphone jack.",
+    "price": 199.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/iphone-6/1.webp",
+    "rating": 4.1,
+    "inStock": true,
+    "features": [
+      "A10 Fusion",
+      "IP67 Water Resistant",
+      "12MP OIS Camera",
+      "Stereo Speakers"
+    ]
+  },
+  {
+    "name": "Apple iPhone 8",
+    "description": "Glass back design with wireless charging, A11 Bionic chip, True Tone display, and Portrait Lighting.",
+    "price": 279.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/1.webp",
+    "rating": 4.2,
+    "inStock": true,
+    "features": [
+      "A11 Bionic",
+      "Wireless Charging",
+      "True Tone",
+      "Portrait Lighting"
+    ]
+  },
+  {
+    "name": "Apple iPhone X",
+    "description": "All-screen OLED Super Retina display, Face ID, A11 Bionic chip, Animoji, and wireless charging.",
+    "price": 449.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/1.webp",
+    "rating": 4.4,
+    "inStock": true,
+    "features": [
+      "Face ID",
+      "OLED Display",
+      "A11 Bionic",
+      "Animoji"
+    ]
+  },
+  {
+    "name": "Apple iPhone XR",
+    "description": "6.1-inch Liquid Retina display, A12 Bionic, 12MP camera with Smart HDR, dual SIM support, and all-day battery.",
+    "price": 399.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/1.webp",
+    "rating": 4.3,
+    "inStock": true,
+    "features": [
+      "Liquid Retina",
+      "A12 Bionic",
+      "Smart HDR",
+      "Dual SIM"
+    ]
+  },
+  {
+    "name": "Apple iPhone 11",
+    "description": "Dual 12MP Ultra Wide and Wide cameras, A13 Bionic, Night mode, and all-day battery life.",
+    "price": 499.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/1.webp",
+    "rating": 4.5,
+    "inStock": true,
+    "features": [
+      "Dual Camera",
+      "A13 Bionic",
+      "Night Mode",
+      "All-Day Battery"
+    ]
+  },
+  {
+    "name": "Apple iPhone 12",
+    "description": "6.1-inch Super Retina XDR OLED, A14 Bionic, Ceramic Shield, MagSafe, and 5G connectivity.",
+    "price": 599.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/1.webp",
+    "rating": 4.5,
+    "inStock": true,
+    "features": [
+      "A14 Bionic",
+      "5G",
+      "MagSafe",
+      "Ceramic Shield"
+    ]
+  },
+  {
+    "name": "Apple iPhone 12 Mini",
+    "description": "Compact 5.4-inch Super Retina XDR, A14 Bionic, dual camera, MagSafe, and 5G in a pocket-friendly size.",
+    "price": 529.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/1.webp",
+    "rating": 4.3,
+    "inStock": true,
+    "features": [
+      "5.4\" Compact",
+      "A14 Bionic",
+      "5G",
+      "MagSafe"
+    ]
+  },
+  {
+    "name": "Apple iPhone 13",
+    "description": "A15 Bionic, diagonal dual camera system, Cinematic mode, smaller notch, and longer battery life.",
+    "price": 699.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/1.webp",
+    "rating": 4.6,
+    "inStock": true,
+    "features": [
+      "A15 Bionic",
+      "Cinematic Mode",
+      "Diagonal Dual Camera",
+      "Longer Battery"
+    ]
+  },
+  {
+    "name": "Apple iPhone 13 Pro",
+    "description": "A15 Bionic, Pro 12MP camera with 3x optical zoom, ProMotion 120Hz Super Retina XDR, and Ceramic Shield.",
+    "price": 999.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/1.webp",
+    "rating": 4.8,
+    "inStock": true,
+    "features": [
+      "ProMotion 120Hz",
+      "3x Optical Zoom",
+      "Macro Photography",
+      "Ceramic Shield"
+    ]
+  },
+  {
+    "name": "Apple iPhone 14 Pro",
+    "description": "A16 Bionic, Dynamic Island, always-on display, 48MP main camera, and crash detection.",
+    "price": 1099.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/1.webp",
+    "rating": 4.8,
+    "inStock": true,
+    "features": [
+      "Dynamic Island",
+      "48MP Camera",
+      "Always-On Display",
+      "Crash Detection"
+    ]
+  },
+  {
+    "name": "Apple iPhone 15 Pro Max",
+    "description": "A17 Pro chip, titanium design, 5x optical zoom, USB-C, Action button, and the longest battery life ever.",
+    "price": 1199.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/1.webp",
+    "rating": 4.9,
+    "inStock": true,
+    "features": [
+      "A17 Pro",
+      "Titanium",
+      "5x Optical Zoom",
+      "USB-C"
+    ]
+  },
+  {
+    "name": "Samsung Galaxy A14",
+    "description": "Budget Galaxy with 6.6-inch FHD+ display, 50MP triple camera, 5000mAh battery, and Android 13.",
+    "price": 149.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s7/1.webp",
+    "rating": 4,
+    "inStock": true,
+    "features": [
+      "50MP Triple Camera",
+      "5000mAh Battery",
+      "6.6\" FHD+",
+      "Android 13"
+    ]
+  },
+  {
+    "name": "Samsung Galaxy A34 5G",
+    "description": "6.6-inch Super AMOLED 120Hz, 48MP OIS camera, 5000mAh battery, IP67 water resistance, and 5G.",
+    "price": 299.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s7/1.webp",
+    "rating": 4.2,
+    "inStock": true,
+    "features": [
+      "120Hz Super AMOLED",
+      "48MP OIS",
+      "IP67",
+      "5G Ready"
+    ]
+  },
+  {
+    "name": "Samsung Galaxy A54 5G",
+    "description": "6.4-inch Super AMOLED 120Hz, 50MP OIS triple camera, 5000mAh battery, IP67, and Samsung Knox.",
+    "price": 399.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s8/1.webp",
+    "rating": 4.4,
+    "inStock": true,
+    "features": [
+      "50MP OIS Camera",
+      "120Hz AMOLED",
+      "IP67",
+      "Samsung Knox"
+    ]
+  },
+  {
+    "name": "Samsung Galaxy S7",
+    "description": "Dual Pixel 12MP camera, always-on display, expandable storage up to 200GB, and fast charging.",
+    "price": 199.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s7/1.webp",
+    "rating": 4.1,
+    "inStock": true,
+    "features": [
+      "Dual Pixel Camera",
+      "Always-On Display",
+      "Expandable Storage",
+      "Fast Charging"
+    ]
+  },
+  {
+    "name": "Samsung Galaxy S8",
+    "description": "Infinity Display edge-to-edge, 12MP Dual Pixel camera, iris scanner, and IP68 water resistance.",
+    "price": 299.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s8/1.webp",
+    "rating": 4.3,
+    "inStock": true,
+    "features": [
+      "Infinity Display",
+      "Iris Scanner",
+      "IP68",
+      "12MP Dual Pixel"
+    ]
+  },
+  {
+    "name": "Samsung Galaxy S10",
+    "description": "Infinity-O display, triple camera with ultra-wide, Snapdragon 855, and wireless PowerShare.",
+    "price": 499.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/1.webp",
+    "rating": 4.5,
+    "inStock": true,
+    "features": [
+      "Infinity-O Display",
+      "Triple Camera",
+      "PowerShare",
+      "Snapdragon 855"
+    ]
+  },
+  {
+    "name": "Samsung Galaxy S21 FE",
+    "description": "6.4-inch Dynamic AMOLED 2X 120Hz, Snapdragon 888, 12MP triple camera, and 4500mAh battery.",
+    "price": 549.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/1.webp",
+    "rating": 4.4,
+    "inStock": true,
+    "features": [
+      "120Hz AMOLED",
+      "Snapdragon 888",
+      "Triple Camera",
+      "4500mAh"
+    ]
+  },
+  {
+    "name": "Samsung Galaxy S22",
+    "description": "6.1-inch Dynamic AMOLED 2X, Snapdragon 8 Gen 1, 50MP camera, Nightography, and adaptive 120Hz.",
+    "price": 649.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/1.webp",
+    "rating": 4.5,
+    "inStock": true,
+    "features": [
+      "Snapdragon 8 Gen 1",
+      "50MP Camera",
+      "Nightography",
+      "Adaptive 120Hz"
+    ]
+  },
+  {
+    "name": "Samsung Galaxy S23 Ultra",
+    "description": "6.8-inch Dynamic AMOLED 2X, 200MP camera, Snapdragon 8 Gen 2, built-in S Pen, and 5000mAh.",
+    "price": 1099.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/1.webp",
+    "rating": 4.8,
+    "inStock": true,
+    "features": [
+      "200MP Camera",
+      "S Pen Built-in",
+      "Snapdragon 8 Gen 2",
+      "5000mAh"
+    ]
+  },
+  {
+    "name": "Samsung Galaxy Z Flip 5",
+    "description": "Foldable 6.7-inch Dynamic AMOLED, 3.4-inch cover screen, Flex Mode, and Snapdragon 8 Gen 2.",
+    "price": 999.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/1.webp",
+    "rating": 4.5,
+    "inStock": true,
+    "features": [
+      "Foldable Design",
+      "Cover Screen",
+      "Flex Mode",
+      "Snapdragon 8 Gen 2"
+    ]
+  },
+  {
+    "name": "Samsung Galaxy Z Fold 5",
+    "description": "7.6-inch foldable main display, multitasking with Flex Mode, Snapdragon 8 Gen 2, and IPX8.",
+    "price": 1799.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/1.webp",
+    "rating": 4.6,
+    "inStock": true,
+    "features": [
+      "7.6\" Foldable",
+      "Multi-Window",
+      "IPX8",
+      "Snapdragon 8 Gen 2"
+    ]
+  },
+  {
+    "name": "Google Pixel 6a",
+    "description": "Google Tensor chip, 12.2MP camera with Magic Eraser, 6.1-inch OLED, IP67, and 5 years of updates.",
+    "price": 349.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/vivo-v9/1.webp",
+    "rating": 4.3,
+    "inStock": true,
+    "features": [
+      "Google Tensor",
+      "Magic Eraser",
+      "IP67",
+      "5-Year Updates"
+    ]
+  },
+  {
+    "name": "Google Pixel 7",
+    "description": "Tensor G2 chip, 50MP camera with Real Tone, 6.3-inch AMOLED 90Hz, and Photo Unblur.",
+    "price": 499.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/vivo-v9/1.webp",
+    "rating": 4.5,
+    "inStock": true,
+    "features": [
+      "Tensor G2",
+      "50MP Real Tone",
+      "90Hz AMOLED",
+      "Photo Unblur"
+    ]
+  },
+  {
+    "name": "Google Pixel 7 Pro",
+    "description": "Tensor G2, 50MP triple camera with 5x optical zoom, 6.7-inch LTPO AMOLED 120Hz, and macro focus.",
+    "price": 749.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/vivo-v9/1.webp",
+    "rating": 4.6,
+    "inStock": true,
+    "features": [
+      "5x Optical Zoom",
+      "120Hz LTPO",
+      "Macro Focus",
+      "Tensor G2"
+    ]
+  },
+  {
+    "name": "Google Pixel 8 Pro",
+    "description": "Tensor G3, 50MP main + 48MP ultrawide, 6.7-inch Super Actua 120Hz, AI features, and 7 years of updates.",
+    "price": 999.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/vivo-v9/1.webp",
+    "rating": 4.7,
+    "inStock": true,
+    "features": [
+      "Tensor G3",
+      "AI Photo Editing",
+      "7-Year Updates",
+      "Super Actua Display"
+    ]
+  },
+  {
+    "name": "OnePlus Nord CE 3 Lite",
+    "description": "6.72-inch FHD+ 120Hz, Snapdragon 695, 108MP camera, 5000mAh with 67W SUPERVOOC charging.",
+    "price": 249.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/realme-xt/1.webp",
+    "rating": 4.2,
+    "inStock": true,
+    "features": [
+      "108MP Camera",
+      "67W SUPERVOOC",
+      "120Hz Display",
+      "Snapdragon 695"
+    ]
+  },
+  {
+    "name": "OnePlus Nord 3",
+    "description": "6.74-inch AMOLED 120Hz, Dimensity 9000, 50MP Sony IMX890 camera, and 80W SUPERVOOC.",
+    "price": 379.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/realme-xt/1.webp",
+    "rating": 4.4,
+    "inStock": true,
+    "features": [
+      "Dimensity 9000",
+      "Sony IMX890",
+      "80W SUPERVOOC",
+      "120Hz AMOLED"
+    ]
+  },
+  {
+    "name": "OnePlus 11",
+    "description": "6.7-inch QHD+ LTPO3 120Hz, Snapdragon 8 Gen 2, Hasselblad camera, 100W SUPERVOOC, and 5000mAh.",
+    "price": 699.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/realme-xt/1.webp",
+    "rating": 4.6,
+    "inStock": true,
+    "features": [
+      "Hasselblad Camera",
+      "100W SUPERVOOC",
+      "QHD+ LTPO3",
+      "Snapdragon 8 Gen 2"
+    ]
+  },
+  {
+    "name": "OnePlus 12",
+    "description": "6.82-inch QHD+ LTPO 120Hz, Snapdragon 8 Gen 3, 50MP Hasselblad, 100W + 50W wireless, and 5400mAh.",
+    "price": 799.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/realme-xt/1.webp",
+    "rating": 4.7,
+    "inStock": true,
+    "features": [
+      "Snapdragon 8 Gen 3",
+      "100W + 50W Wireless",
+      "Hasselblad Camera",
+      "5400mAh"
+    ]
+  },
+  {
+    "name": "Xiaomi Redmi Note 12",
+    "description": "6.67-inch AMOLED 120Hz, Snapdragon 685, 50MP camera, 5000mAh with 33W charging.",
+    "price": 179.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/oppo-a57/1.webp",
+    "rating": 4.1,
+    "inStock": true,
+    "features": [
+      "120Hz AMOLED",
+      "50MP Camera",
+      "33W Fast Charge",
+      "5000mAh"
+    ]
+  },
+  {
+    "name": "Xiaomi Redmi Note 13 Pro",
+    "description": "6.67-inch AMOLED 120Hz, 200MP camera, Snapdragon 7s Gen 2, 67W turbo charge, and IP54.",
+    "price": 299.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/oppo-a57/1.webp",
+    "rating": 4.3,
+    "inStock": true,
+    "features": [
+      "200MP Camera",
+      "67W Turbo Charge",
+      "Snapdragon 7s Gen 2",
+      "IP54"
+    ]
+  },
+  {
+    "name": "Xiaomi 13T Pro",
+    "description": "6.67-inch CrystalRes AMOLED 144Hz, Dimensity 9200+, Leica camera, 120W HyperCharge, and IP68.",
+    "price": 599.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/oppo-a57/1.webp",
+    "rating": 4.5,
+    "inStock": true,
+    "features": [
+      "Leica Camera",
+      "120W HyperCharge",
+      "144Hz AMOLED",
+      "IP68"
+    ]
+  },
+  {
+    "name": "Xiaomi 14 Pro",
+    "description": "6.73-inch LTPO AMOLED 120Hz, Snapdragon 8 Gen 3, Leica Summilux lens, 120W wired + 50W wireless.",
+    "price": 899.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/oppo-a57/1.webp",
+    "rating": 4.7,
+    "inStock": true,
+    "features": [
+      "Leica Summilux",
+      "Snapdragon 8 Gen 3",
+      "120W + 50W",
+      "LTPO 120Hz"
+    ]
+  },
+  {
+    "name": "Oppo A57",
+    "description": "Stylish budget phone with 6.56-inch HD+, 33W SUPERVOOC, 5000mAh, and 13MP AI camera.",
+    "price": 159.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/oppo-a57/1.webp",
+    "rating": 4,
+    "inStock": true,
+    "features": [
+      "33W SUPERVOOC",
+      "5000mAh",
+      "13MP AI Camera",
+      "Side Fingerprint"
+    ]
+  },
+  {
+    "name": "Oppo Reno 10 Pro",
+    "description": "6.7-inch AMOLED 120Hz, Snapdragon 778G, 50MP telephoto portrait, 80W SUPERVOOC, and ColorOS 13.",
+    "price": 449.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/1.webp",
+    "rating": 4.4,
+    "inStock": true,
+    "features": [
+      "Telephoto Portrait",
+      "80W SUPERVOOC",
+      "120Hz AMOLED",
+      "Snapdragon 778G"
+    ]
+  },
+  {
+    "name": "Oppo Find X6 Pro",
+    "description": "6.82-inch QHD+ LTPO3, Snapdragon 8 Gen 2, Hasselblad triple 50MP camera, 100W SUPERVOOC.",
+    "price": 899.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/1.webp",
+    "rating": 4.7,
+    "inStock": false,
+    "features": [
+      "Hasselblad Camera",
+      "QHD+ LTPO3",
+      "100W SUPERVOOC",
+      "Snapdragon 8 Gen 2"
+    ]
+  },
+  {
+    "name": "Realme C35",
+    "description": "Budget smartphone with 6.6-inch FHD+, Unisoc T616, 50MP AI triple camera, and 5000mAh with 18W charge.",
+    "price": 119.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/1.webp",
+    "rating": 3.9,
+    "inStock": true,
+    "features": [
+      "50MP Triple Camera",
+      "5000mAh",
+      "18W Quick Charge",
+      "6.6\" FHD+"
+    ]
+  },
+  {
+    "name": "Realme XT",
+    "description": "64MP Quad Camera, Snapdragon 712, 6.4-inch Super AMOLED, and VOOC Flash Charge 3.0.",
+    "price": 229.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/realme-xt/1.webp",
+    "rating": 4.2,
+    "inStock": true,
+    "features": [
+      "64MP Quad Camera",
+      "Super AMOLED",
+      "VOOC 3.0",
+      "Snapdragon 712"
+    ]
+  },
+  {
+    "name": "Realme GT 5 Pro",
+    "description": "6.78-inch AMOLED 144Hz, Snapdragon 8 Gen 3, 50MP Sony IMX890, 100W SUPERVOOC, and 5400mAh.",
+    "price": 549.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/realme-xt/1.webp",
+    "rating": 4.5,
+    "inStock": true,
+    "features": [
+      "Snapdragon 8 Gen 3",
+      "144Hz AMOLED",
+      "100W SUPERVOOC",
+      "Sony IMX890"
+    ]
+  },
+  {
+    "name": "Motorola Moto G Power 2024",
+    "description": "6.5-inch IPS LCD 120Hz, Dimensity 7020, 50MP camera, 5000mAh, and near-stock Android.",
+    "price": 199.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/vivo-v9/1.webp",
+    "rating": 4.1,
+    "inStock": true,
+    "features": [
+      "120Hz LCD",
+      "50MP Camera",
+      "5000mAh",
+      "Near-Stock Android"
+    ]
+  },
+  {
+    "name": "Motorola Edge 40 Pro",
+    "description": "6.67-inch pOLED 165Hz, Snapdragon 8 Gen 2, 50MP triple camera, 125W TurboPower, and IP68.",
+    "price": 699.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/vivo-v9/1.webp",
+    "rating": 4.5,
+    "inStock": true,
+    "features": [
+      "165Hz pOLED",
+      "125W TurboPower",
+      "IP68",
+      "Snapdragon 8 Gen 2"
+    ]
+  },
+  {
+    "name": "Nokia G42 5G",
+    "description": "6.56-inch HD+ 90Hz, Snapdragon 480+, 50MP camera, 5000mAh, 3 years of updates, and QuickFix repairability.",
+    "price": 229.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/1.webp",
+    "rating": 4,
+    "inStock": true,
+    "features": [
+      "5G",
+      "3-Year Updates",
+      "QuickFix Design",
+      "50MP Camera"
+    ]
+  },
+  {
+    "name": "Nokia XR21",
+    "description": "Military-grade rugged phone, 6.49-inch FHD+, Snapdragon 695, 64MP camera, IP69K, and 4800mAh.",
+    "price": 499.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/1.webp",
+    "rating": 4.3,
+    "inStock": true,
+    "features": [
+      "Military-Grade",
+      "IP69K",
+      "64MP Camera",
+      "4-Year Updates"
+    ]
+  },
+  {
+    "name": "Sony Xperia 1 V",
+    "description": "6.5-inch 4K HDR OLED 120Hz, Snapdragon 8 Gen 2, ZEISS triple camera, 3.5mm jack, and 5000mAh.",
+    "price": 1199.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s8/1.webp",
+    "rating": 4.6,
+    "inStock": true,
+    "features": [
+      "4K HDR OLED",
+      "ZEISS Camera",
+      "3.5mm Jack",
+      "Snapdragon 8 Gen 2"
+    ]
+  },
+  {
+    "name": "Sony Xperia 10 V",
+    "description": "6.1-inch OLED, Snapdragon 695, triple camera, 5000mAh, ultra-light 159g, and LDAC audio.",
+    "price": 399.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s8/1.webp",
+    "rating": 4.2,
+    "inStock": true,
+    "features": [
+      "OLED Display",
+      "Ultra-Light 159g",
+      "LDAC Audio",
+      "5000mAh"
+    ]
+  },
+  {
+    "name": "Vivo V9",
+    "description": "24MP AI selfie camera, 6.3-inch FullView display, Snapdragon 626, and AI face beauty.",
+    "price": 249.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/vivo-v9/1.webp",
+    "rating": 4.1,
+    "inStock": true,
+    "features": [
+      "24MP AI Selfie",
+      "FullView Display",
+      "Face Unlock",
+      "AI Face Beauty"
+    ]
+  },
+  {
+    "name": "Vivo X90 Pro",
+    "description": "6.78-inch AMOLED 120Hz, Dimensity 9200, ZEISS triple 50MP camera, and 120W FlashCharge.",
+    "price": 799.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/vivo-v9/1.webp",
+    "rating": 4.6,
+    "inStock": true,
+    "features": [
+      "ZEISS Camera",
+      "120W FlashCharge",
+      "Dimensity 9200",
+      "120Hz AMOLED"
+    ]
+  },
+  {
+    "name": "Nothing Phone (2)",
+    "description": "6.7-inch LTPO OLED 120Hz, Snapdragon 8+ Gen 1, Glyph Interface LEDs, 50MP dual camera, and 4700mAh.",
+    "price": 599.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s8/1.webp",
+    "rating": 4.4,
+    "inStock": true,
+    "features": [
+      "Glyph Interface",
+      "LTPO OLED 120Hz",
+      "Snapdragon 8+ Gen 1",
+      "50MP Dual Camera"
+    ]
+  },
+  {
+    "name": "Apple MacBook Air M1",
+    "description": "M1 chip with 8-core CPU/GPU, 13.3-inch Retina, 8GB RAM, 256GB SSD, fanless design, and 18-hour battery.",
+    "price": 899.99,
+    "category": "Laptops",
+    "image": "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/1.webp",
+    "rating": 4.7,
+    "inStock": true,
+    "features": [
+      "M1 Chip",
+      "Fanless Design",
+      "18-hour Battery",
+      "256GB SSD"
+    ]
+  },
+  {
+    "name": "Apple MacBook Air M2",
+    "description": "M2 chip, 13.6-inch Liquid Retina, 8GB RAM, 256GB SSD, MagSafe, 1080p camera, and 18-hour battery.",
+    "price": 1099.99,
+    "category": "Laptops",
+    "image": "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/1.webp",
+    "rating": 4.8,
+    "inStock": true,
+    "features": [
+      "M2 Chip",
+      "Liquid Retina",
+      "MagSafe",
+      "1080p Camera"
+    ]
+  },
+  {
+    "name": "Apple MacBook Air 15\" M3",
+    "description": "M3 chip, 15.3-inch Liquid Retina, 8GB RAM, 256GB SSD, six speakers, and 18-hour battery.",
+    "price": 1299.99,
+    "category": "Laptops",
+    "image": "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/1.webp",
+    "rating": 4.8,
+    "inStock": true,
+    "features": [
+      "M3 Chip",
+      "15.3\" Display",
+      "Six Speakers",
+      "18-hour Battery"
+    ]
+  },
+  {
+    "name": "Apple MacBook Pro 14\" M3",
+    "description": "M3 chip, 14.2-inch Liquid Retina XDR, 8GB RAM, 512GB SSD, ProMotion 120Hz, and HDMI port.",
+    "price": 1599.99,
+    "category": "Laptops",
+    "image": "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/1.webp",
+    "rating": 4.8,
+    "inStock": true,
+    "features": [
+      "M3 Chip",
+      "ProMotion XDR",
+      "512GB SSD",
+      "HDMI Port"
+    ]
+  },
+  {
+    "name": "Apple MacBook Pro 14\" M3 Pro",
+    "description": "M3 Pro chip with 12-core CPU, 18GB RAM, 512GB SSD, ProMotion XDR, and 17-hour battery.",
+    "price": 1999.99,
+    "category": "Laptops",
+    "image": "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/1.webp",
+    "rating": 4.9,
+    "inStock": true,
+    "features": [
+      "M3 Pro",
+      "18GB RAM",
+      "ProMotion XDR",
+      "17-hour Battery"
+    ]
+  },
+  {
+    "name": "Apple MacBook Pro 16\" M3 Max",
+    "description": "M3 Max with 16-core CPU/40-core GPU, 36GB RAM, 1TB SSD, 16.2-inch XDR, and 22-hour battery.",
+    "price": 3499.99,
+    "category": "Laptops",
+    "image": "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/1.webp",
+    "rating": 4.9,
+    "inStock": true,
+    "features": [
+      "M3 Max",
+      "36GB RAM",
+      "1TB SSD",
+      "22-hour Battery"
+    ]
+  },
+  {
+    "name": "Dell Inspiron 15 3000",
+    "description": "15.6-inch FHD, Intel Core i3, 8GB RAM, 256GB SSD, anti-glare display, and lightweight design.",
+    "price": 379.99,
+    "category": "Laptops",
+    "image": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/1.webp",
+    "rating": 4,
+    "inStock": true,
+    "features": [
+      "Intel Core i3",
+      "8GB RAM",
+      "256GB SSD",
+      "Anti-Glare"
+    ]
+  },
+  {
+    "name": "Dell Inspiron 15 5000",
+    "description": "15.6-inch FHD, Intel Core i5-1235U, 8GB RAM, 512GB SSD, fingerprint reader, and backlit keyboard.",
+    "price": 549.99,
+    "category": "Laptops",
+    "image": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/1.webp",
+    "rating": 4.2,
+    "inStock": true,
+    "features": [
+      "Intel Core i5",
+      "512GB SSD",
+      "Fingerprint Reader",
+      "Backlit Keyboard"
+    ]
+  },
+  {
+    "name": "Dell XPS 13 Plus",
+    "description": "13.4-inch FHD+ InfinityEdge, Intel Core i7-1360P, 16GB RAM, 512GB SSD, and haptic touchpad.",
+    "price": 1299.99,
+    "category": "Laptops",
+    "image": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/1.webp",
+    "rating": 4.6,
+    "inStock": true,
+    "features": [
+      "InfinityEdge",
+      "Intel Core i7",
+      "16GB RAM",
+      "Haptic Touchpad"
+    ]
+  },
+  {
+    "name": "Dell XPS 15 9530",
+    "description": "15.6-inch 3.5K OLED, Intel Core i7-13700H, 16GB RAM, 512GB SSD, NVIDIA RTX 4050, and Thunderbolt 4.",
+    "price": 1699.99,
+    "category": "Laptops",
+    "image": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/1.webp",
+    "rating": 4.7,
+    "inStock": true,
+    "features": [
+      "3.5K OLED",
+      "RTX 4050",
+      "Thunderbolt 4",
+      "Core i7-13700H"
+    ]
+  },
+  {
+    "name": "Dell Alienware m16 R2",
+    "description": "16-inch QHD+ 240Hz, Intel Core i9-14900HX, 32GB RAM, 1TB SSD, NVIDIA RTX 4080, and Cryo-tech cooling.",
+    "price": 2499.99,
+    "category": "Laptops",
+    "image": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/1.webp",
+    "rating": 4.7,
+    "inStock": true,
+    "features": [
+      "RTX 4080",
+      "240Hz QHD+",
+      "Core i9-14900HX",
+      "Cryo-tech Cooling"
+    ]
+  },
+  {
+    "name": "HP Pavilion 15",
+    "description": "15.6-inch FHD, AMD Ryzen 5 7530U, 8GB RAM, 256GB SSD, HP Fast Charge, and thin design.",
+    "price": 449.99,
+    "category": "Laptops",
+    "image": "https://cdn.dummyjson.com/product-images/laptops/hp-pavilion-15-dk1056wm/1.webp",
+    "rating": 4.2,
+    "inStock": true,
+    "features": [
+      "Ryzen 5",
+      "8GB RAM",
+      "256GB SSD",
+      "HP Fast Charge"
+    ]
+  },
+  {
+    "name": "HP Envy x360 15",
+    "description": "15.6-inch FHD IPS touch, AMD Ryzen 7, 16GB RAM, 512GB SSD, 360° hinge, and pen support.",
+    "price": 849.99,
+    "category": "Laptops",
+    "image": "https://cdn.dummyjson.com/product-images/laptops/hp-pavilion-15-dk1056wm/1.webp",
+    "rating": 4.4,
+    "inStock": true,
+    "features": [
+      "360° Touch",
+      "Ryzen 7",
+      "16GB RAM",
+      "Pen Support"
+    ]
+  },
+  {
+    "name": "HP Spectre x360 14",
+    "description": "13.5-inch 3K2K OLED touch, Intel Core i7-1355U, 16GB RAM, 1TB SSD, Thunderbolt 4, and gem-cut design.",
+    "price": 1499.99,
+    "category": "Laptops",
+    "image": "https://cdn.dummyjson.com/product-images/laptops/hp-pavilion-15-dk1056wm/1.webp",
+    "rating": 4.7,
+    "inStock": true,
+    "features": [
+      "3K2K OLED",
+      "Core i7",
+      "1TB SSD",
+      "Gem-Cut Design"
+    ]
+  },
+  {
+    "name": "HP Omen 16",
+    "description": "16.1-inch QHD 165Hz, AMD Ryzen 9 7945HX, 16GB RAM, 1TB SSD, NVIDIA RTX 4070, and OMEN Tempest Cooling.",
+    "price": 1799.99,
+    "category": "Laptops",
+    "image": "https://cdn.dummyjson.com/product-images/laptops/hp-pavilion-15-dk1056wm/1.webp",
+    "rating": 4.6,
+    "inStock": true,
+    "features": [
+      "RTX 4070",
+      "165Hz QHD",
+      "Ryzen 9",
+      "Tempest Cooling"
+    ]
+  },
+  {
+    "name": "Lenovo IdeaPad 3i",
+    "description": "15.6-inch FHD, Intel Core i5-1235U, 8GB RAM, 256GB SSD, Dolby Audio, and fingerprint reader.",
+    "price": 429.99,
+    "category": "Laptops",
+    "image": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/1.webp",
+    "rating": 4.1,
+    "inStock": true,
+    "features": [
+      "Core i5",
+      "8GB RAM",
+      "Dolby Audio",
+      "Fingerprint Reader"
+    ]
+  },
+  {
+    "name": "Lenovo Yoga 7i",
+    "description": "14-inch 2.2K IPS touch, Intel Core i7, 16GB RAM, 512GB SSD, 360° hinge, and Dolby Atmos speakers.",
+    "price": 899.99,
+    "category": "Laptops",
+    "image": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/1.webp",
+    "rating": 4.5,
+    "inStock": true,
+    "features": [
+      "2.2K Touch",
+      "360° Hinge",
+      "Core i7",
+      "Dolby Atmos"
+    ]
+  },
+  {
+    "name": "Lenovo ThinkPad X1 Carbon Gen 11",
+    "description": "14-inch 2.8K OLED, Intel Core i7-1365U, 16GB RAM, 512GB SSD, MIL-STD tested, and fingerprint/IR camera.",
+    "price": 1599.99,
+    "category": "Laptops",
+    "image": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/1.webp",
+    "rating": 4.7,
+    "inStock": true,
+    "features": [
+      "2.8K OLED",
+      "MIL-STD Tested",
+      "IR Camera",
+      "Core i7"
+    ]
+  },
+  {
+    "name": "Lenovo Legion Pro 5i",
+    "description": "16-inch WQXGA 240Hz, Intel Core i9-13900HX, 32GB RAM, 1TB SSD, RTX 4070, and ColdFront 5.0.",
+    "price": 1999.99,
+    "category": "Laptops",
+    "image": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/1.webp",
+    "rating": 4.7,
+    "inStock": true,
+    "features": [
+      "RTX 4070",
+      "240Hz WQXGA",
+      "Core i9",
+      "ColdFront 5.0"
+    ]
+  },
+  {
+    "name": "Asus VivoBook 15",
+    "description": "15.6-inch FHD, AMD Ryzen 5, 8GB RAM, 512GB SSD, thin and light, and Asus SonicMaster audio.",
+    "price": 479.99,
+    "category": "Laptops",
+    "image": "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/1.webp",
+    "rating": 4.2,
+    "inStock": true,
+    "features": [
+      "Ryzen 5",
+      "512GB SSD",
+      "SonicMaster Audio",
+      "Thin & Light"
+    ]
+  },
+  {
+    "name": "Asus Zenbook 14 OLED",
+    "description": "14-inch 2.8K OLED 90Hz, Intel Core i7-1360P, 16GB RAM, 512GB SSD, NumberPad touchpad, and 1.39kg.",
+    "price": 999.99,
+    "category": "Laptops",
+    "image": "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/1.webp",
+    "rating": 4.6,
+    "inStock": true,
+    "features": [
+      "2.8K OLED",
+      "NumberPad",
+      "Core i7",
+      "1.39kg"
+    ]
+  },
+  {
+    "name": "Asus Zenbook Pro Dual Screen",
+    "description": "Dual-screen with 14\" OLED + 12.7\" ScreenPad Plus, Intel Core i9, 32GB RAM, and RTX 4060.",
+    "price": 1899.99,
+    "category": "Laptops",
+    "image": "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/1.webp",
+    "rating": 4.6,
+    "inStock": true,
+    "features": [
+      "Dual Screen",
+      "Core i9",
+      "RTX 4060",
+      "32GB RAM"
+    ]
+  },
+  {
+    "name": "Asus ROG Zephyrus G14",
+    "description": "14-inch QHD+ 165Hz, AMD Ryzen 9 7940HS, 16GB RAM, 1TB SSD, RTX 4060, and AniMe Matrix LEDs.",
+    "price": 1599.99,
+    "category": "Laptops",
+    "image": "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/1.webp",
+    "rating": 4.7,
+    "inStock": true,
+    "features": [
+      "RTX 4060",
+      "165Hz QHD+",
+      "AniMe Matrix",
+      "Ryzen 9"
+    ]
+  },
+  {
+    "name": "Acer Aspire 5",
+    "description": "15.6-inch FHD IPS, AMD Ryzen 5, 8GB RAM, 512GB SSD, WiFi 6, and military-grade durability.",
+    "price": 449.99,
+    "category": "Laptops",
+    "image": "https://cdn.dummyjson.com/product-images/laptops/hp-pavilion-15-dk1056wm/1.webp",
+    "rating": 4.1,
+    "inStock": true,
+    "features": [
+      "Ryzen 5",
+      "512GB SSD",
+      "WiFi 6",
+      "MIL-STD Durability"
+    ]
+  },
+  {
+    "name": "Acer Swift 5",
+    "description": "14-inch 2.5K IPS touch, Intel Core i7, 16GB RAM, 512GB SSD, antimicrobial coating, and under 1kg.",
+    "price": 1099.99,
+    "category": "Laptops",
+    "image": "https://cdn.dummyjson.com/product-images/laptops/hp-pavilion-15-dk1056wm/1.webp",
+    "rating": 4.5,
+    "inStock": true,
+    "features": [
+      "Under 1kg",
+      "2.5K IPS Touch",
+      "Antimicrobial",
+      "Core i7"
+    ]
+  },
+  {
+    "name": "MSI Stealth 16 Studio",
+    "description": "16-inch QHD+ 240Hz, Intel Core i9-13900H, 32GB RAM, 1TB SSD, RTX 4070, and Cooler Boost Trinity+.",
+    "price": 2199.99,
+    "category": "Laptops",
+    "image": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/1.webp",
+    "rating": 4.7,
+    "inStock": true,
+    "features": [
+      "RTX 4070",
+      "240Hz QHD+",
+      "Core i9",
+      "Cooler Boost Trinity+"
+    ]
+  },
+  {
+    "name": "Microsoft Surface Laptop 5",
+    "description": "13.5-inch PixelSense touch, Intel Core i7, 16GB RAM, 512GB SSD, Alcantara keyboard, and Windows Hello.",
+    "price": 1299.99,
+    "category": "Laptops",
+    "image": "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/1.webp",
+    "rating": 4.5,
+    "inStock": true,
+    "features": [
+      "PixelSense Touch",
+      "Alcantara",
+      "Windows Hello",
+      "Core i7"
+    ]
+  },
+  {
+    "name": "Samsung Galaxy Book3 Pro",
+    "description": "14-inch Dynamic AMOLED, Intel Core i7-1360P, 16GB RAM, 512GB SSD, S Pen support, and AKG speakers.",
+    "price": 1199.99,
+    "category": "Laptops",
+    "image": "https://cdn.dummyjson.com/product-images/laptops/samsung-galaxy-book-s/1.webp",
+    "rating": 4.5,
+    "inStock": true,
+    "features": [
+      "Dynamic AMOLED",
+      "S Pen Support",
+      "AKG Speakers",
+      "Core i7"
+    ]
+  },
+  {
+    "name": "Samsung Galaxy Book S",
+    "description": "13.3-inch FHD, Intel Lakefield, 8GB RAM, 256GB SSD, LTE, and 17-hour battery.",
+    "price": 549.99,
+    "category": "Laptops",
+    "image": "https://cdn.dummyjson.com/product-images/laptops/samsung-galaxy-book-s/1.webp",
+    "rating": 4.2,
+    "inStock": true,
+    "features": [
+      "LTE Connectivity",
+      "17-hour Battery",
+      "Ultra-Thin",
+      "Intel Lakefield"
+    ]
+  },
+  {
+    "name": "Huawei MateBook X Pro 2023",
+    "description": "14.2-inch 3.1K LTPS 90Hz touch, Intel Core i7-1360P, 16GB RAM, 1TB SSD, and 6-speaker sound.",
+    "price": 1399.99,
+    "category": "Laptops",
+    "image": "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/1.webp",
+    "rating": 4.6,
+    "inStock": true,
+    "features": [
+      "3.1K Touch",
+      "6-Speaker Sound",
+      "Core i7",
+      "1TB SSD"
+    ]
+  },
+  {
+    "name": "Razer Blade 15",
+    "description": "15.6-inch QHD 240Hz, Intel Core i7-13800H, 16GB RAM, 1TB SSD, RTX 4060, and CNC aluminum body.",
+    "price": 1999.99,
+    "category": "Laptops",
+    "image": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/1.webp",
+    "rating": 4.6,
+    "inStock": true,
+    "features": [
+      "RTX 4060",
+      "240Hz QHD",
+      "CNC Aluminum",
+      "Core i7-13800H"
+    ]
+  },
+  {
+    "name": "Apple iPad 10th Gen",
+    "description": "10.9-inch Liquid Retina, A14 Bionic, 64GB, USB-C, 12MP cameras, and Apple Pencil 1 support.",
+    "price": 349.99,
+    "category": "Tablets",
+    "image": "https://cdn.dummyjson.com/product-images/tablets/ipad-mini-2021-starlight/1.webp",
+    "rating": 4.4,
+    "inStock": true,
+    "features": [
+      "A14 Bionic",
+      "10.9\" Liquid Retina",
+      "USB-C",
+      "12MP Cameras"
+    ]
+  },
+  {
+    "name": "Apple iPad Mini 6th Gen",
+    "description": "A15 Bionic, 8.3-inch Liquid Retina, Apple Pencil 2, USB-C, Touch ID, and 5G.",
+    "price": 499.99,
+    "category": "Tablets",
+    "image": "https://cdn.dummyjson.com/product-images/tablets/ipad-mini-2021-starlight/1.webp",
+    "rating": 4.7,
+    "inStock": true,
+    "features": [
+      "A15 Bionic",
+      "8.3\" Liquid Retina",
+      "Apple Pencil 2",
+      "5G"
+    ]
+  },
+  {
+    "name": "Apple iPad Air M1",
+    "description": "M1 chip, 10.9-inch Liquid Retina, Center Stage, 5G, Apple Pencil 2, and Magic Keyboard support.",
+    "price": 599.99,
+    "category": "Tablets",
+    "image": "https://cdn.dummyjson.com/product-images/tablets/ipad-mini-2021-starlight/1.webp",
+    "rating": 4.7,
+    "inStock": true,
+    "features": [
+      "M1 Chip",
+      "Center Stage",
+      "5G",
+      "Magic Keyboard"
+    ]
+  },
+  {
+    "name": "Apple iPad Air M2 13\"",
+    "description": "M2 chip, 13-inch Liquid Retina, P3 wide color, landscape camera, and Apple Pencil Pro support.",
+    "price": 799.99,
+    "category": "Tablets",
+    "image": "https://cdn.dummyjson.com/product-images/tablets/ipad-mini-2021-starlight/1.webp",
+    "rating": 4.8,
+    "inStock": true,
+    "features": [
+      "M2 Chip",
+      "13\" Display",
+      "Apple Pencil Pro",
+      "P3 Wide Color"
+    ]
+  },
+  {
+    "name": "Apple iPad Pro 11\" M4",
+    "description": "M4 chip, 11-inch Ultra Retina XDR, Tandem OLED, ProMotion 120Hz, Face ID, and Thunderbolt.",
+    "price": 999.99,
+    "category": "Tablets",
+    "image": "https://cdn.dummyjson.com/product-images/tablets/ipad-mini-2021-starlight/1.webp",
+    "rating": 4.9,
+    "inStock": true,
+    "features": [
+      "M4 Chip",
+      "Tandem OLED",
+      "ProMotion 120Hz",
+      "Thunderbolt"
+    ]
+  },
+  {
+    "name": "Apple iPad Pro 13\" M4",
+    "description": "M4 chip, 13-inch Ultra Retina XDR Tandem OLED, 2TB option, Thunderbolt, and Apple Pencil Pro.",
+    "price": 1299.99,
+    "category": "Tablets",
+    "image": "https://cdn.dummyjson.com/product-images/tablets/ipad-mini-2021-starlight/1.webp",
+    "rating": 4.9,
+    "inStock": true,
+    "features": [
+      "M4 Chip",
+      "13\" Tandem OLED",
+      "Up to 2TB",
+      "Apple Pencil Pro"
+    ]
+  },
+  {
+    "name": "Samsung Galaxy Tab A7 Lite",
+    "description": "8.7-inch compact tablet, MediaTek Helio P22T, 3GB RAM, 32GB storage, and 5100mAh battery.",
+    "price": 129.99,
+    "category": "Tablets",
+    "image": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-white/1.webp",
+    "rating": 3.9,
+    "inStock": true,
+    "features": [
+      "8.7\" Compact",
+      "5100mAh",
+      "Kids Mode",
+      "Metal Frame"
+    ]
+  },
+  {
+    "name": "Samsung Galaxy Tab A8",
+    "description": "10.5-inch LCD, quad speakers with Dolby Atmos, 7040mAh battery, and multi-window support.",
+    "price": 199.99,
+    "category": "Tablets",
+    "image": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-a8/1.webp",
+    "rating": 4.2,
+    "inStock": true,
+    "features": [
+      "Dolby Atmos",
+      "7040mAh",
+      "10.5\" Display",
+      "Multi-Window"
+    ]
+  },
+  {
+    "name": "Samsung Galaxy Tab S6 Lite 2024",
+    "description": "10.4-inch TFT, Snapdragon 720G, S Pen included, AKG speakers, and One UI 6.",
+    "price": 299.99,
+    "category": "Tablets",
+    "image": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-white/1.webp",
+    "rating": 4.3,
+    "inStock": true,
+    "features": [
+      "S Pen Included",
+      "AKG Speakers",
+      "Snapdragon 720G",
+      "One UI 6"
+    ]
+  },
+  {
+    "name": "Samsung Galaxy Tab S9 FE",
+    "description": "10.9-inch TFT 90Hz, Exynos 1380, S Pen, IP68 water resistance, and 8000mAh battery.",
+    "price": 449.99,
+    "category": "Tablets",
+    "image": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s7-plus/1.webp",
+    "rating": 4.4,
+    "inStock": true,
+    "features": [
+      "IP68",
+      "S Pen",
+      "90Hz Display",
+      "8000mAh"
+    ]
+  },
+  {
+    "name": "Samsung Galaxy Tab S7 Plus",
+    "description": "12.4-inch Super AMOLED 120Hz, Snapdragon 865+, S Pen, and DeX desktop mode.",
+    "price": 599.99,
+    "category": "Tablets",
+    "image": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s7-plus/1.webp",
+    "rating": 4.5,
+    "inStock": true,
+    "features": [
+      "120Hz AMOLED",
+      "S Pen",
+      "DeX Mode",
+      "Snapdragon 865+"
+    ]
+  },
+  {
+    "name": "Samsung Galaxy Tab S8 Plus",
+    "description": "12.4-inch Super AMOLED, Snapdragon 8 Gen 1, 8GB RAM, S Pen, and 45W fast charging.",
+    "price": 749.99,
+    "category": "Tablets",
+    "image": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/1.webp",
+    "rating": 4.6,
+    "inStock": true,
+    "features": [
+      "Snapdragon 8 Gen 1",
+      "S Pen",
+      "45W Fast Charge",
+      "12.4\" AMOLED"
+    ]
+  },
+  {
+    "name": "Samsung Galaxy Tab S9 Ultra",
+    "description": "14.6-inch Dynamic AMOLED 2X 120Hz, Snapdragon 8 Gen 2, 12GB RAM, S Pen, IP68, and Armor Aluminum.",
+    "price": 1099.99,
+    "category": "Tablets",
+    "image": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/1.webp",
+    "rating": 4.8,
+    "inStock": true,
+    "features": [
+      "14.6\" AMOLED",
+      "Snapdragon 8 Gen 2",
+      "IP68",
+      "Armor Aluminum"
+    ]
+  },
+  {
+    "name": "Amazon Fire HD 8",
+    "description": "8-inch HD display, 2GB RAM, 32GB storage, Alexa hands-free, 13-hour battery, and Show Mode.",
+    "price": 79.99,
+    "category": "Tablets",
+    "image": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-white/1.webp",
+    "rating": 4,
+    "inStock": true,
+    "features": [
+      "Alexa Built-in",
+      "13-hour Battery",
+      "Show Mode",
+      "32GB Storage"
+    ]
+  },
+  {
+    "name": "Amazon Fire HD 10",
+    "description": "10.1-inch FHD, 3GB RAM, 32GB storage, Alexa, USB-C, 12-hour battery, and split-screen support.",
+    "price": 119.99,
+    "category": "Tablets",
+    "image": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-white/1.webp",
+    "rating": 4.1,
+    "inStock": true,
+    "features": [
+      "10.1\" FHD",
+      "Alexa",
+      "USB-C",
+      "Split-Screen"
+    ]
+  },
+  {
+    "name": "Lenovo Tab M10 Plus 3rd Gen",
+    "description": "10.61-inch 2K IPS, MediaTek Helio G80, 4GB RAM, quad speakers with Dolby Atmos, and 7700mAh.",
+    "price": 179.99,
+    "category": "Tablets",
+    "image": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-white/1.webp",
+    "rating": 4.1,
+    "inStock": true,
+    "features": [
+      "2K IPS",
+      "Dolby Atmos",
+      "7700mAh",
+      "MediaTek G80"
+    ]
+  },
+  {
+    "name": "Lenovo Tab P11 Pro Gen 2",
+    "description": "11.2-inch OLED 120Hz, MediaTek Kompanio 1300T, 6GB RAM, JBL speakers, and optional keyboard.",
+    "price": 349.99,
+    "category": "Tablets",
+    "image": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-a8/1.webp",
+    "rating": 4.3,
+    "inStock": true,
+    "features": [
+      "OLED 120Hz",
+      "JBL Speakers",
+      "Optional Keyboard",
+      "Kompanio 1300T"
+    ]
+  },
+  {
+    "name": "Microsoft Surface Go 3",
+    "description": "10.5-inch PixelSense touch, Intel Core i3, 8GB RAM, 128GB SSD, Type Cover support, and Surface Pen.",
+    "price": 449.99,
+    "category": "Tablets",
+    "image": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-a8/1.webp",
+    "rating": 4.2,
+    "inStock": true,
+    "features": [
+      "PixelSense",
+      "Type Cover",
+      "Surface Pen",
+      "Core i3"
+    ]
+  },
+  {
+    "name": "Microsoft Surface Pro 9",
+    "description": "13-inch PixelSense Flow 120Hz, Intel Core i7, 16GB RAM, 256GB SSD, Thunderbolt 4, and kickstand.",
+    "price": 1299.99,
+    "category": "Tablets",
+    "image": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/1.webp",
+    "rating": 4.6,
+    "inStock": true,
+    "features": [
+      "120Hz Flow",
+      "Core i7",
+      "Thunderbolt 4",
+      "Kickstand"
+    ]
+  },
+  {
+    "name": "Huawei MatePad 11.5\"",
+    "description": "11.5-inch IPS 120Hz, Snapdragon 7 Gen 1, 6GB RAM, 128GB, HarmonyOS, and multi-window.",
+    "price": 299.99,
+    "category": "Tablets",
+    "image": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-a8/1.webp",
+    "rating": 4.2,
+    "inStock": true,
+    "features": [
+      "120Hz IPS",
+      "Snapdragon 7 Gen 1",
+      "HarmonyOS",
+      "Multi-Window"
+    ]
+  },
+  {
+    "name": "JBL Go 3",
+    "description": "Ultra-portable Bluetooth speaker with IP67 waterproof, 5 hours battery, and bold colorful design.",
+    "price": 29.99,
+    "category": "Audio",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/amazon-echo-plus/1.webp",
+    "rating": 4.3,
+    "inStock": true,
+    "features": [
+      "IP67 Waterproof",
+      "5hr Battery",
+      "Ultra-Portable",
+      "Bluetooth 5.1"
+    ]
+  },
+  {
+    "name": "JBL Clip 4",
+    "description": "Portable clip-on speaker with IP67, 10 hours battery, built-in carabiner, and JBL Pro Sound.",
+    "price": 49.99,
+    "category": "Audio",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/amazon-echo-plus/1.webp",
+    "rating": 4.4,
+    "inStock": true,
+    "features": [
+      "Built-in Carabiner",
+      "IP67",
+      "10hr Battery",
+      "JBL Pro Sound"
+    ]
+  },
+  {
+    "name": "Xiaomi Redmi Buds 4 Lite",
+    "description": "Lightweight TWS earbuds with 10mm drivers, 20hr total battery, Bluetooth 5.3, and touch controls.",
+    "price": 14.99,
+    "category": "Audio",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/beats-flex-wireless-earphones/1.webp",
+    "rating": 3.8,
+    "inStock": true,
+    "features": [
+      "20hr Battery",
+      "Bluetooth 5.3",
+      "Touch Controls",
+      "10mm Drivers"
+    ]
+  },
+  {
+    "name": "Samsung Galaxy Buds FE",
+    "description": "Active Noise Cancellation, 12mm drivers, IPX2, 30hr total battery, and 360 Audio support.",
+    "price": 69.99,
+    "category": "Audio",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/1.webp",
+    "rating": 4.3,
+    "inStock": true,
+    "features": [
+      "ANC",
+      "30hr Battery",
+      "360 Audio",
+      "IPX2"
+    ]
+  },
+  {
+    "name": "Beats Flex Wireless",
+    "description": "All-day earphones with Apple W1 chip, magnetic earbuds, 12-hour battery, and USB-C charging.",
+    "price": 49.99,
+    "category": "Audio",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/beats-flex-wireless-earphones/1.webp",
+    "rating": 4.3,
+    "inStock": true,
+    "features": [
+      "Apple W1 Chip",
+      "Magnetic Earbuds",
+      "12hr Battery",
+      "USB-C"
+    ]
+  },
+  {
+    "name": "OnePlus Nord Buds 2",
+    "description": "12.4mm titanium drivers, ANC up to 25dB, 36hr total battery, IP55, and Bluetooth 5.3.",
+    "price": 59.99,
+    "category": "Audio",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/beats-flex-wireless-earphones/1.webp",
+    "rating": 4.2,
+    "inStock": true,
+    "features": [
+      "Titanium Drivers",
+      "ANC 25dB",
+      "36hr Battery",
+      "IP55"
+    ]
+  },
+  {
+    "name": "Nothing Ear (2)",
+    "description": "Hi-Res Audio certified, adaptive ANC, 36hr total battery, LHDC 5.0, and dual connection.",
+    "price": 79.99,
+    "category": "Audio",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/1.webp",
+    "rating": 4.4,
+    "inStock": true,
+    "features": [
+      "Hi-Res Audio",
+      "Adaptive ANC",
+      "36hr Battery",
+      "Dual Connection"
+    ]
+  },
+  {
+    "name": "Amazon Echo Dot 5th Gen",
+    "description": "Smart speaker with improved audio, Alexa, temperature sensor, eero mesh router support, and compact design.",
+    "price": 39.99,
+    "category": "Audio",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/amazon-echo-plus/1.webp",
+    "rating": 4.4,
+    "inStock": true,
+    "features": [
+      "Alexa Built-in",
+      "Temperature Sensor",
+      "eero Mesh",
+      "Compact"
+    ]
+  },
+  {
+    "name": "Amazon Echo Plus",
+    "description": "Premium smart speaker with Zigbee hub, Alexa, temperature sensor, and rich 360-degree sound.",
+    "price": 89.99,
+    "category": "Audio",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/amazon-echo-plus/1.webp",
+    "rating": 4.5,
+    "inStock": true,
+    "features": [
+      "Zigbee Hub",
+      "Alexa",
+      "360° Sound",
+      "Temperature Sensor"
+    ]
+  },
+  {
+    "name": "Google Nest Audio",
+    "description": "Smart speaker with Google Assistant, 75mm woofer, 19mm tweeter, and adaptive sound technology.",
+    "price": 79.99,
+    "category": "Audio",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/amazon-echo-plus/1.webp",
+    "rating": 4.4,
+    "inStock": true,
+    "features": [
+      "Google Assistant",
+      "Adaptive Sound",
+      "75mm Woofer",
+      "Chromecast Built-in"
+    ]
+  },
+  {
+    "name": "Apple HomePod Mini",
+    "description": "Compact smart speaker with 360-degree audio, Siri, HomeKit hub, and Intercom feature.",
+    "price": 99.99,
+    "category": "Audio",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-homepod-mini-cosmic-grey/1.webp",
+    "rating": 4.5,
+    "inStock": true,
+    "features": [
+      "360° Audio",
+      "Siri",
+      "HomeKit Hub",
+      "Intercom"
+    ]
+  },
+  {
+    "name": "JBL Flip 6",
+    "description": "Portable Bluetooth speaker with IP67, 12 hours battery, PartyBoost, and powerful JBL Original Pro Sound.",
+    "price": 99.99,
+    "category": "Audio",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/amazon-echo-plus/1.webp",
+    "rating": 4.6,
+    "inStock": true,
+    "features": [
+      "IP67",
+      "12hr Battery",
+      "PartyBoost",
+      "JBL Pro Sound"
+    ]
+  },
+  {
+    "name": "Apple AirPods 3rd Gen",
+    "description": "Spatial audio, adaptive EQ, sweat resistant, MagSafe case, and 30 hours total battery.",
+    "price": 169.99,
+    "category": "Audio",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/1.webp",
+    "rating": 4.6,
+    "inStock": true,
+    "features": [
+      "Spatial Audio",
+      "Adaptive EQ",
+      "MagSafe Case",
+      "30hr Battery"
+    ]
+  },
+  {
+    "name": "Samsung Galaxy Buds2 Pro",
+    "description": "Hi-Fi 24-bit audio, intelligent ANC, 360 Audio, IPX7, and 29hr total battery.",
+    "price": 149.99,
+    "category": "Audio",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/1.webp",
+    "rating": 4.5,
+    "inStock": true,
+    "features": [
+      "24-bit Hi-Fi",
+      "Intelligent ANC",
+      "360 Audio",
+      "IPX7"
+    ]
+  },
+  {
+    "name": "Google Pixel Buds Pro",
+    "description": "Active Noise Cancellation, 11mm custom drivers, multipoint connectivity, IPX4, and 31hr total battery.",
+    "price": 159.99,
+    "category": "Audio",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/1.webp",
+    "rating": 4.4,
+    "inStock": true,
+    "features": [
+      "ANC",
+      "Multipoint",
+      "31hr Battery",
+      "IPX4"
+    ]
+  },
+  {
+    "name": "JBL Charge 5",
+    "description": "Portable Bluetooth speaker with IP67, 20 hours battery, Powerbank feature, and PartyBoost.",
+    "price": 149.99,
+    "category": "Audio",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/amazon-echo-plus/1.webp",
+    "rating": 4.6,
+    "inStock": true,
+    "features": [
+      "IP67",
+      "20hr Battery",
+      "Powerbank",
+      "PartyBoost"
+    ]
+  },
+  {
+    "name": "Beats Studio Buds +",
+    "description": "Enhanced ANC, transparent mode, up to 36hr battery, USB-C, and Android/Apple compatibility.",
+    "price": 169.99,
+    "category": "Audio",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/beats-flex-wireless-earphones/1.webp",
+    "rating": 4.4,
+    "inStock": true,
+    "features": [
+      "Enhanced ANC",
+      "36hr Battery",
+      "USB-C",
+      "Cross-Platform"
+    ]
+  },
+  {
+    "name": "Apple AirPods Pro 2nd Gen",
+    "description": "Adaptive Audio, personalized spatial audio, conversation awareness, USB-C MagSafe case, and IP54.",
+    "price": 249.99,
+    "category": "Audio",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/1.webp",
+    "rating": 4.7,
+    "inStock": true,
+    "features": [
+      "Adaptive Audio",
+      "Conversation Awareness",
+      "USB-C MagSafe",
+      "IP54"
+    ]
+  },
+  {
+    "name": "Sony WF-1000XM5",
+    "description": "World's smallest ANC earbuds, LDAC Hi-Res, 24hr total battery, speak-to-chat, and IPX4.",
+    "price": 279.99,
+    "category": "Audio",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/1.webp",
+    "rating": 4.7,
+    "inStock": true,
+    "features": [
+      "World's Smallest ANC",
+      "LDAC Hi-Res",
+      "24hr Battery",
+      "Speak-to-Chat"
+    ]
+  },
+  {
+    "name": "Bose QuietComfort Earbuds II",
+    "description": "World-class ANC, CustomTune sound, 24hr total battery, aware mode, and IPX4.",
+    "price": 279.99,
+    "category": "Audio",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/1.webp",
+    "rating": 4.7,
+    "inStock": true,
+    "features": [
+      "World-Class ANC",
+      "CustomTune",
+      "24hr Battery",
+      "Aware Mode"
+    ]
+  },
+  {
+    "name": "Sony WH-1000XM5",
+    "description": "Industry-leading ANC headphones, 30-hour battery, multipoint Bluetooth, speak-to-chat, and LDAC.",
+    "price": 349.99,
+    "category": "Audio",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods-max-silver/1.webp",
+    "rating": 4.8,
+    "inStock": true,
+    "features": [
+      "Industry-Leading ANC",
+      "30hr Battery",
+      "LDAC",
+      "Speak-to-Chat"
+    ]
+  },
+  {
+    "name": "Bose QuietComfort Ultra",
+    "description": "Spatial audio, world-class ANC, CustomTune sound, multipoint, and 24-hour battery.",
+    "price": 379.99,
+    "category": "Audio",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods-max-silver/1.webp",
+    "rating": 4.7,
+    "inStock": true,
+    "features": [
+      "Spatial Audio",
+      "World-Class ANC",
+      "CustomTune",
+      "24hr Battery"
+    ]
+  },
+  {
+    "name": "Bose SoundLink Max",
+    "description": "Portable Bluetooth speaker with deep bass, IP67, 20hr battery, stereo pairing, and built-in mic.",
+    "price": 349.99,
+    "category": "Audio",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/amazon-echo-plus/1.webp",
+    "rating": 4.6,
+    "inStock": true,
+    "features": [
+      "Deep Bass",
+      "IP67",
+      "20hr Battery",
+      "Stereo Pair"
+    ]
+  },
+  {
+    "name": "JBL Boombox 3",
+    "description": "Massive portable speaker with IP67, 24 hours battery, JBL Original Pro Sound, PartyBoost, and USB charging.",
+    "price": 399.99,
+    "category": "Audio",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/amazon-echo-plus/1.webp",
+    "rating": 4.6,
+    "inStock": true,
+    "features": [
+      "IP67",
+      "24hr Battery",
+      "PartyBoost",
+      "USB Charging"
+    ]
+  },
+  {
+    "name": "Sennheiser Momentum 4",
+    "description": "Adaptive ANC, 60-hour battery, aptX Adaptive, customizable EQ, and premium leather headband.",
+    "price": 299.99,
+    "category": "Audio",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods-max-silver/1.webp",
+    "rating": 4.6,
+    "inStock": true,
+    "features": [
+      "60hr Battery",
+      "Adaptive ANC",
+      "aptX Adaptive",
+      "Leather Headband"
+    ]
+  },
+  {
+    "name": "Apple AirPods Max Silver",
+    "description": "Over-ear with ANC, Transparency mode, spatial audio with head tracking, H1 chip, and 20-hour battery.",
+    "price": 549.99,
+    "category": "Audio",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods-max-silver/1.webp",
+    "rating": 4.7,
+    "inStock": true,
+    "features": [
+      "ANC",
+      "Spatial Audio",
+      "H1 Chip",
+      "20hr Battery"
+    ]
+  },
+  {
+    "name": "Sony WH-1000XM5 Midnight Blue",
+    "description": "Limited edition color, industry-leading ANC, 30hr battery, multipoint, and Hi-Res Audio.",
+    "price": 399.99,
+    "category": "Audio",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods-max-silver/1.webp",
+    "rating": 4.8,
+    "inStock": false,
+    "features": [
+      "Limited Edition",
+      "Industry-Leading ANC",
+      "30hr Battery",
+      "Hi-Res"
+    ]
+  },
+  {
+    "name": "Bose Home Speaker 500",
+    "description": "Smart home speaker with stereo sound, Alexa and Google Assistant, 8-mic array, and LCD display.",
+    "price": 299.99,
+    "category": "Audio",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-homepod-mini-cosmic-grey/1.webp",
+    "rating": 4.5,
+    "inStock": true,
+    "features": [
+      "Stereo Sound",
+      "Alexa + Google",
+      "8-Mic Array",
+      "LCD Display"
+    ]
+  },
+  {
+    "name": "Apple HomePod 2nd Gen",
+    "description": "Full-size smart speaker with S7 chip, spatial audio, room sensing, temperature/humidity sensor, and Matter support.",
+    "price": 299.99,
+    "category": "Audio",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-homepod-mini-cosmic-grey/1.webp",
+    "rating": 4.6,
+    "inStock": true,
+    "features": [
+      "S7 Chip",
+      "Spatial Audio",
+      "Room Sensing",
+      "Matter Support"
+    ]
+  },
+  {
+    "name": "Sonos One SL",
+    "description": "Compact smart speaker with Trueplay tuning, AirPlay 2, rich bass, and multi-room support.",
+    "price": 179.99,
+    "category": "Audio",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-homepod-mini-cosmic-grey/1.webp",
+    "rating": 4.5,
+    "inStock": true,
+    "features": [
+      "Trueplay",
+      "AirPlay 2",
+      "Multi-Room",
+      "Rich Bass"
+    ]
+  },
+  {
+    "name": "Sonos Era 300",
+    "description": "Spatial audio speaker with Dolby Atmos, Trueplay, WiFi 6, Bluetooth 5.0, and line-in support.",
+    "price": 449.99,
+    "category": "Audio",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-homepod-mini-cosmic-grey/1.webp",
+    "rating": 4.7,
+    "inStock": true,
+    "features": [
+      "Dolby Atmos",
+      "Trueplay",
+      "WiFi 6",
+      "Spatial Audio"
+    ]
+  },
+  {
+    "name": "USB-C to Lightning Cable 1m",
+    "description": "MFi certified, braided nylon, fast charging up to 20W, and durable aluminum connectors.",
+    "price": 9.99,
+    "category": "Accessories",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-iphone-charger/1.webp",
+    "rating": 4.3,
+    "inStock": true,
+    "features": [
+      "MFi Certified",
+      "Braided Nylon",
+      "20W Fast Charge",
+      "1m Length"
+    ]
+  },
+  {
+    "name": "USB-C to USB-C Cable 2m",
+    "description": "100W PD charging, USB 3.2 Gen 2, 10Gbps data transfer, E-Marker chip, and braided nylon.",
+    "price": 14.99,
+    "category": "Accessories",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-iphone-charger/1.webp",
+    "rating": 4.4,
+    "inStock": true,
+    "features": [
+      "100W PD",
+      "10Gbps",
+      "E-Marker",
+      "2m Length"
+    ]
+  },
+  {
+    "name": "Apple iPhone Charger 20W",
+    "description": "20W USB-C power adapter for fast charging. Up to 50% in 30 minutes for iPhone 8 and later.",
+    "price": 19.99,
+    "category": "Accessories",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-iphone-charger/1.webp",
+    "rating": 4.5,
+    "inStock": true,
+    "features": [
+      "20W USB-C",
+      "Fast Charging",
+      "50% in 30 min",
+      "Compact"
+    ]
+  },
+  {
+    "name": "Anker 65W GaN Charger",
+    "description": "Ultra-compact GaN II charger with 65W output, dual USB-C + USB-A, foldable plug, and universal voltage.",
+    "price": 39.99,
+    "category": "Accessories",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-iphone-charger/1.webp",
+    "rating": 4.6,
+    "inStock": true,
+    "features": [
+      "65W GaN II",
+      "Dual USB-C",
+      "Foldable Plug",
+      "Universal"
+    ]
+  },
+  {
+    "name": "Anker 100W GaN Prime Charger",
+    "description": "100W 3-port GaN charger, dual USB-C + USB-A, ActiveShield 2.0 safety, and laptop compatible.",
+    "price": 49.99,
+    "category": "Accessories",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-iphone-charger/1.webp",
+    "rating": 4.7,
+    "inStock": true,
+    "features": [
+      "100W",
+      "3-Port",
+      "GaN Prime",
+      "Laptop Compatible"
+    ]
+  },
+  {
+    "name": "Apple Airpower Wireless Charger",
+    "description": "Qi-compatible wireless charging pad, 7.5W fast charging for iPhone and AirPods, LED indicator.",
+    "price": 39.99,
+    "category": "Accessories",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpower-wireless-charger/1.webp",
+    "rating": 4.3,
+    "inStock": true,
+    "features": [
+      "Qi Compatible",
+      "7.5W Fast",
+      "LED Indicator",
+      "Anti-Slip"
+    ]
+  },
+  {
+    "name": "Samsung 15W Wireless Charger Duo",
+    "description": "Dual wireless charging pad for phone + Galaxy Watch/Buds, 15W fast charge, and LED status.",
+    "price": 49.99,
+    "category": "Accessories",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpower-wireless-charger/1.webp",
+    "rating": 4.4,
+    "inStock": true,
+    "features": [
+      "Dual Pad",
+      "15W Fast",
+      "LED Status",
+      "Galaxy Compatible"
+    ]
+  },
+  {
+    "name": "MagSafe Charger (Apple)",
+    "description": "Magnetic wireless charger for iPhone 12+, 15W fast charging, alignment magnets, and 1m cable.",
+    "price": 39.99,
+    "category": "Accessories",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpower-wireless-charger/1.webp",
+    "rating": 4.5,
+    "inStock": true,
+    "features": [
+      "MagSafe",
+      "15W Fast",
+      "Perfect Alignment",
+      "1m Cable"
+    ]
+  },
+  {
+    "name": "32GB USB Flash Drive",
+    "description": "Compact USB 3.0 flash drive, 32GB, up to 100MB/s read, cap-less swivel design, and keychain hole.",
+    "price": 7.99,
+    "category": "Accessories",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-magsafe-battery-pack/1.webp",
+    "rating": 4.1,
+    "inStock": true,
+    "features": [
+      "USB 3.0",
+      "32GB",
+      "100MB/s",
+      "Swivel Design"
+    ]
+  },
+  {
+    "name": "64GB USB Flash Drive",
+    "description": "USB 3.0 flash drive, 64GB, 150MB/s transfer, metal casing with keychain loop.",
+    "price": 12.99,
+    "category": "Accessories",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-magsafe-battery-pack/1.webp",
+    "rating": 4.3,
+    "inStock": true,
+    "features": [
+      "USB 3.0",
+      "64GB",
+      "150MB/s",
+      "Metal Casing"
+    ]
+  },
+  {
+    "name": "128GB USB-C Flash Drive",
+    "description": "Dual USB-C and USB-A connectors, 128GB, 200MB/s transfer, and compact all-metal design.",
+    "price": 19.99,
+    "category": "Accessories",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-magsafe-battery-pack/1.webp",
+    "rating": 4.4,
+    "inStock": true,
+    "features": [
+      "Dual Connector",
+      "128GB",
+      "200MB/s",
+      "All-Metal"
+    ]
+  },
+  {
+    "name": "256GB USB-C Flash Drive",
+    "description": "High-capacity dual USB-C/USB-A, 256GB, 400MB/s transfer, and durable metal body.",
+    "price": 34.99,
+    "category": "Accessories",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-magsafe-battery-pack/1.webp",
+    "rating": 4.5,
+    "inStock": true,
+    "features": [
+      "256GB",
+      "Dual USB-C/A",
+      "400MB/s",
+      "Metal Body"
+    ]
+  },
+  {
+    "name": "512GB Portable SSD",
+    "description": "Compact portable SSD, USB 3.2, 550MB/s read, shock-resistant, and pocket-sized.",
+    "price": 54.99,
+    "category": "Accessories",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-magsafe-battery-pack/1.webp",
+    "rating": 4.5,
+    "inStock": true,
+    "features": [
+      "512GB SSD",
+      "550MB/s",
+      "Shock-Resistant",
+      "Pocket-Sized"
+    ]
+  },
+  {
+    "name": "1TB Portable External HDD",
+    "description": "Slim 1TB external hard drive, USB 3.0, plug-and-play, shock-resistant casing, PC and Mac.",
+    "price": 49.99,
+    "category": "Accessories",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-magsafe-battery-pack/1.webp",
+    "rating": 4.3,
+    "inStock": true,
+    "features": [
+      "1TB HDD",
+      "USB 3.0",
+      "Shock-Resistant",
+      "Plug & Play"
+    ]
+  },
+  {
+    "name": "2TB Portable External HDD",
+    "description": "2TB external hard drive, USB 3.0, auto backup software, password protection, and slim design.",
+    "price": 69.99,
+    "category": "Accessories",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-magsafe-battery-pack/1.webp",
+    "rating": 4.4,
+    "inStock": true,
+    "features": [
+      "2TB HDD",
+      "Auto Backup",
+      "Password Protection",
+      "USB 3.0"
+    ]
+  },
+  {
+    "name": "1TB Portable SSD",
+    "description": "Ultra-fast portable SSD, USB 3.2 Gen 2, 1050MB/s read, IP65 water/dust resistant, and drop-proof.",
+    "price": 99.99,
+    "category": "Accessories",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-magsafe-battery-pack/1.webp",
+    "rating": 4.6,
+    "inStock": true,
+    "features": [
+      "1TB SSD",
+      "1050MB/s",
+      "IP65",
+      "Drop-Proof"
+    ]
+  },
+  {
+    "name": "2TB Portable SSD",
+    "description": "High-capacity portable SSD, USB 3.2 Gen 2, 1050MB/s read, hardware encryption, and rugged design.",
+    "price": 169.99,
+    "category": "Accessories",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-magsafe-battery-pack/1.webp",
+    "rating": 4.7,
+    "inStock": true,
+    "features": [
+      "2TB SSD",
+      "1050MB/s",
+      "Hardware Encryption",
+      "Rugged"
+    ]
+  },
+  {
+    "name": "4TB Portable SSD Pro",
+    "description": "Professional-grade 4TB portable SSD, Thunderbolt 3, 2800MB/s read, IP68, and hardware encryption.",
+    "price": 399.99,
+    "category": "Accessories",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-magsafe-battery-pack/1.webp",
+    "rating": 4.8,
+    "inStock": false,
+    "features": [
+      "4TB SSD",
+      "2800MB/s",
+      "Thunderbolt 3",
+      "IP68"
+    ]
+  },
+  {
+    "name": "Anker PowerCore 10000mAh",
+    "description": "Ultra-compact 10000mAh power bank, 22.5W USB-C output, PowerIQ 3.0, and pocket-sized.",
+    "price": 24.99,
+    "category": "Accessories",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-magsafe-battery-pack/1.webp",
+    "rating": 4.5,
+    "inStock": true,
+    "features": [
+      "10000mAh",
+      "22.5W USB-C",
+      "PowerIQ 3.0",
+      "Pocket-Sized"
+    ]
+  },
+  {
+    "name": "Anker PowerCore 20000mAh",
+    "description": "20000mAh power bank, 65W USB-C PD, charges laptops, dual output, and airline-safe.",
+    "price": 49.99,
+    "category": "Accessories",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-magsafe-battery-pack/1.webp",
+    "rating": 4.6,
+    "inStock": true,
+    "features": [
+      "20000mAh",
+      "65W PD",
+      "Laptop Charging",
+      "Airline-Safe"
+    ]
+  },
+  {
+    "name": "Apple MagSafe Battery Pack",
+    "description": "Magnetic battery pack for iPhone, 15W MagSafe charging, Lightning recharge, and compact design.",
+    "price": 99,
+    "category": "Accessories",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-magsafe-battery-pack/1.webp",
+    "rating": 4.3,
+    "inStock": true,
+    "features": [
+      "MagSafe",
+      "15W Wireless",
+      "Lightning",
+      "Compact"
+    ]
+  },
+  {
+    "name": "Samsung 10000mAh Wireless Battery",
+    "description": "10000mAh with 25W wired + 7.5W wireless output, USB-C PD, and Qi compatibility.",
+    "price": 39.99,
+    "category": "Accessories",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-magsafe-battery-pack/1.webp",
+    "rating": 4.4,
+    "inStock": true,
+    "features": [
+      "10000mAh",
+      "25W + 7.5W Wireless",
+      "USB-C PD",
+      "Qi Compatible"
+    ]
+  },
+  {
+    "name": "Tempered Glass Screen Protector 2-Pack",
+    "description": "9H hardness tempered glass, edge-to-edge, anti-fingerprint, bubble-free installation.",
+    "price": 9.99,
+    "category": "Accessories",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-iphone-charger/1.webp",
+    "rating": 4.2,
+    "inStock": true,
+    "features": [
+      "9H Hardness",
+      "Edge-to-Edge",
+      "Anti-Fingerprint",
+      "Bubble-Free"
+    ]
+  },
+  {
+    "name": "OtterBox Defender iPhone Case",
+    "description": "Multi-layer rugged protection, port covers, belt-clip holster, and DROP+ tested (4x MIL-STD).",
+    "price": 49.99,
+    "category": "Accessories",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-iphone-charger/1.webp",
+    "rating": 4.5,
+    "inStock": true,
+    "features": [
+      "Multi-Layer",
+      "Belt-Clip",
+      "DROP+ Tested",
+      "Port Covers"
+    ]
+  },
+  {
+    "name": "Spigen Ultra Hybrid Clear Case",
+    "description": "Crystal clear case with military-grade drop protection, anti-yellowing, and raised camera lips.",
+    "price": 14.99,
+    "category": "Accessories",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-iphone-charger/1.webp",
+    "rating": 4.4,
+    "inStock": true,
+    "features": [
+      "Crystal Clear",
+      "MIL-STD Drop",
+      "Anti-Yellowing",
+      "Raised Lips"
+    ]
+  },
+  {
+    "name": "Samsung Galaxy S24 Silicone Case",
+    "description": "Official Samsung silicone case, soft-touch finish, wireless charging compatible, and slim profile.",
+    "price": 29.99,
+    "category": "Accessories",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-iphone-charger/1.webp",
+    "rating": 4.3,
+    "inStock": true,
+    "features": [
+      "Silicone",
+      "Wireless Compatible",
+      "Soft-Touch",
+      "Slim Profile"
+    ]
+  },
+  {
+    "name": "Samsung Galaxy Watch 6",
+    "description": "40mm, Super AMOLED, Exynos W930, BioActive sensor, body composition, sleep coaching, and Wear OS.",
+    "price": 249.99,
+    "category": "Accessories",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-watch-series-4-gold/1.webp",
+    "rating": 4.4,
+    "inStock": true,
+    "features": [
+      "BioActive Sensor",
+      "Body Composition",
+      "Wear OS",
+      "Sleep Coaching"
+    ]
+  },
+  {
+    "name": "Apple Watch SE 2nd Gen",
+    "description": "S8 chip, crash detection, fall detection, heart rate, 40mm, swimproof, and watchOS 10.",
+    "price": 249.99,
+    "category": "Accessories",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-watch-series-4-gold/1.webp",
+    "rating": 4.5,
+    "inStock": true,
+    "features": [
+      "S8 Chip",
+      "Crash Detection",
+      "Swimproof",
+      "watchOS 10"
+    ]
+  },
+  {
+    "name": "Apple Watch Series 9",
+    "description": "S9 SiP, double tap gesture, 2000 nits display, on-device Siri, blood oxygen, and ECG.",
+    "price": 399.99,
+    "category": "Accessories",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-watch-series-4-gold/1.webp",
+    "rating": 4.7,
+    "inStock": true,
+    "features": [
+      "S9 SiP",
+      "Double Tap",
+      "2000 Nits",
+      "Blood Oxygen + ECG"
+    ]
+  },
+  {
+    "name": "Google Pixel Watch 2",
+    "description": "Tensor chip, Fitbit health tracking, Safety Signal, 24hr battery, LTE option, and Wear OS.",
+    "price": 349.99,
+    "category": "Accessories",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-watch-series-4-gold/1.webp",
+    "rating": 4.4,
+    "inStock": true,
+    "features": [
+      "Tensor Chip",
+      "Fitbit Health",
+      "Safety Signal",
+      "24hr Battery"
+    ]
+  },
+  {
+    "name": "Samsung Galaxy Watch Ultra",
+    "description": "47mm titanium, 3000 nits, dual-frequency GPS, 100ATM water resistance, and 60hr battery.",
+    "price": 649.99,
+    "category": "Accessories",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-watch-series-4-gold/1.webp",
+    "rating": 4.6,
+    "inStock": true,
+    "features": [
+      "Titanium",
+      "3000 Nits",
+      "100ATM",
+      "60hr Battery"
+    ]
+  },
+  {
+    "name": "Apple Watch Ultra 2",
+    "description": "S9 SiP, 49mm titanium, 3000 nits, precision dual-frequency GPS, 100m water resistant, and Action button.",
+    "price": 799.99,
+    "category": "Accessories",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-watch-series-4-gold/1.webp",
+    "rating": 4.8,
+    "inStock": true,
+    "features": [
+      "Titanium 49mm",
+      "3000 Nits",
+      "100m Water",
+      "Action Button"
+    ]
+  },
+  {
+    "name": "Garmin Venu 3",
+    "description": "AMOLED display, 14-day battery, body battery energy, sleep coach, wheelchair mode, and GPS.",
+    "price": 449.99,
+    "category": "Accessories",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-watch-series-4-gold/1.webp",
+    "rating": 4.6,
+    "inStock": true,
+    "features": [
+      "AMOLED",
+      "14-day Battery",
+      "Body Battery",
+      "Wheelchair Mode"
+    ]
+  },
+  {
+    "name": "Huawei P60 Pro",
+    "description": "6.67-inch LTPO OLED 120Hz, Snapdragon 8+ Gen 1, 48MP Ultra Lighting camera, 88W SuperCharge, and IP68.",
+    "price": 899.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/1.webp",
+    "rating": 4.6,
+    "inStock": true,
+    "features": [
+      "Ultra Lighting Camera",
+      "88W SuperCharge",
+      "LTPO OLED 120Hz",
+      "IP68"
+    ]
+  },
+  {
+    "name": "Asus ROG Phone 7",
+    "description": "6.78-inch AMOLED 165Hz, Snapdragon 8 Gen 2, 6000mAh battery, AeroActive Cooler, and 65W HyperCharge.",
+    "price": 999.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/1.webp",
+    "rating": 4.6,
+    "inStock": true,
+    "features": [
+      "165Hz AMOLED",
+      "6000mAh",
+      "AeroActive Cooler",
+      "65W HyperCharge"
+    ]
+  },
+  {
+    "name": "Poco F5 Pro",
+    "description": "6.67-inch AMOLED 120Hz, Snapdragon 8+ Gen 1, 64MP OIS camera, 67W turbo charge, and 5160mAh.",
+    "price": 399.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/oppo-a57/1.webp",
+    "rating": 4.4,
+    "inStock": true,
+    "features": [
+      "Snapdragon 8+ Gen 1",
+      "64MP OIS",
+      "67W Turbo",
+      "5160mAh"
+    ]
+  },
+  {
+    "name": "iQOO 12",
+    "description": "6.78-inch LTPO AMOLED 144Hz, Snapdragon 8 Gen 3, 50MP VCS camera, 120W FlashCharge, and 5000mAh.",
+    "price": 549.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/vivo-v9/1.webp",
+    "rating": 4.5,
+    "inStock": true,
+    "features": [
+      "Snapdragon 8 Gen 3",
+      "144Hz LTPO",
+      "120W FlashCharge",
+      "VCS Camera"
+    ]
+  },
+  {
+    "name": "Tecno Camon 20 Pro",
+    "description": "6.67-inch AMOLED, 108MP camera with RGBW sensor, 33W fast charge, 5000mAh, and NFC.",
+    "price": 249.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/1.webp",
+    "rating": 4.1,
+    "inStock": true,
+    "features": [
+      "108MP RGBW",
+      "AMOLED Display",
+      "33W Fast Charge",
+      "NFC"
+    ]
+  },
+  {
+    "name": "Honor Magic 5 Pro",
+    "description": "6.81-inch LTPO OLED 120Hz, Snapdragon 8 Gen 2, 50MP triple camera, 66W wired + 50W wireless, and IP68.",
+    "price": 799.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/1.webp",
+    "rating": 4.6,
+    "inStock": true,
+    "features": [
+      "Snapdragon 8 Gen 2",
+      "50W Wireless",
+      "LTPO OLED",
+      "IP68"
+    ]
+  },
+  {
+    "name": "ZTE Nubia Z50S Pro",
+    "description": "6.67-inch AMOLED 120Hz, Snapdragon 8 Gen 2, 35mm main camera, UDC under-display camera, and 80W charge.",
+    "price": 599.99,
+    "category": "Smartphones",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s8/1.webp",
+    "rating": 4.3,
+    "inStock": true,
+    "features": [
+      "35mm Camera",
+      "Under-Display Camera",
+      "80W Charge",
+      "Snapdragon 8 Gen 2"
+    ]
+  },
+  {
+    "name": "LG Gram 17",
+    "description": "17-inch WQXGA IPS, Intel Core i7-1360P, 16GB RAM, 1TB SSD, MIL-STD 810H, and only 1.35kg.",
+    "price": 1499.99,
+    "category": "Laptops",
+    "image": "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/1.webp",
+    "rating": 4.5,
+    "inStock": true,
+    "features": [
+      "17\" WQXGA",
+      "1.35kg Ultra-Light",
+      "MIL-STD 810H",
+      "1TB SSD"
+    ]
+  },
+  {
+    "name": "Gigabyte Aero 16 OLED",
+    "description": "16-inch 4K OLED, Intel Core i9-13900H, 16GB RAM, 1TB SSD, RTX 4070, and Pantone validated.",
+    "price": 2199.99,
+    "category": "Laptops",
+    "image": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/1.webp",
+    "rating": 4.6,
+    "inStock": true,
+    "features": [
+      "4K OLED",
+      "RTX 4070",
+      "Pantone Validated",
+      "Core i9"
+    ]
+  },
+  {
+    "name": "Framework Laptop 16",
+    "description": "Modular 16-inch laptop, AMD Ryzen 7 7840HS, 16GB RAM, swappable GPU, and user-repairable design.",
+    "price": 1399.99,
+    "category": "Laptops",
+    "image": "https://cdn.dummyjson.com/product-images/laptops/hp-pavilion-15-dk1056wm/1.webp",
+    "rating": 4.5,
+    "inStock": true,
+    "features": [
+      "Modular Design",
+      "Swappable GPU",
+      "User-Repairable",
+      "Ryzen 7"
+    ]
+  },
+  {
+    "name": "MSI Prestige 14 Evo",
+    "description": "14-inch FHD+, Intel Core i7-1360P, 16GB RAM, 512GB SSD, Intel Iris Xe, and 1.4kg ultra-portable.",
+    "price": 1099.99,
+    "category": "Laptops",
+    "image": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/1.webp",
+    "rating": 4.4,
+    "inStock": true,
+    "features": [
+      "Ultra-Portable 1.4kg",
+      "Intel Iris Xe",
+      "Core i7",
+      "FHD+"
+    ]
+  },
+  {
+    "name": "Acer Predator Helios 16",
+    "description": "16-inch WQXGA 240Hz, Intel Core i9-13900HX, 32GB RAM, 1TB SSD, RTX 4080, and 5th Gen AeroBlade.",
+    "price": 2599.99,
+    "category": "Laptops",
+    "image": "https://cdn.dummyjson.com/product-images/laptops/hp-pavilion-15-dk1056wm/1.webp",
+    "rating": 4.7,
+    "inStock": true,
+    "features": [
+      "RTX 4080",
+      "240Hz WQXGA",
+      "Core i9-13900HX",
+      "AeroBlade 3D"
+    ]
+  },
+  {
+    "name": "OnePlus Pad",
+    "description": "11.61-inch LCD 144Hz, Dimensity 9000, 8GB RAM, 128GB, Stylo pen support, and 9510mAh battery.",
+    "price": 479.99,
+    "category": "Tablets",
+    "image": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s7-plus/1.webp",
+    "rating": 4.3,
+    "inStock": true,
+    "features": [
+      "144Hz LCD",
+      "Dimensity 9000",
+      "Stylo Pen",
+      "9510mAh"
+    ]
+  },
+  {
+    "name": "Xiaomi Pad 6 Pro",
+    "description": "11-inch 2.8K IPS 144Hz, Snapdragon 8+ Gen 1, 8GB RAM, quad speakers, and 8600mAh with 67W charge.",
+    "price": 399.99,
+    "category": "Tablets",
+    "image": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-a8/1.webp",
+    "rating": 4.4,
+    "inStock": true,
+    "features": [
+      "2.8K 144Hz",
+      "Snapdragon 8+ Gen 1",
+      "Quad Speakers",
+      "67W Charge"
+    ]
+  },
+  {
+    "name": "Nokia T21",
+    "description": "10.4-inch 2K display, Unisoc T612, stereo speakers, 8200mAh battery, and 2-day battery life.",
+    "price": 199.99,
+    "category": "Tablets",
+    "image": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-white/1.webp",
+    "rating": 4,
+    "inStock": true,
+    "features": [
+      "2K Display",
+      "2-Day Battery",
+      "Stereo Speakers",
+      "OZO Playback"
+    ]
+  },
+  {
+    "name": "Lenovo Tab P12 Pro",
+    "description": "12.6-inch AMOLED 120Hz, Snapdragon 870, 8GB RAM, JBL quad speakers, and Precision Pen 3.",
+    "price": 599.99,
+    "category": "Tablets",
+    "image": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/1.webp",
+    "rating": 4.5,
+    "inStock": true,
+    "features": [
+      "12.6\" AMOLED",
+      "Snapdragon 870",
+      "JBL Quad Speakers",
+      "Precision Pen 3"
+    ]
+  },
+  {
+    "name": "Huawei MatePad Pro 13.2\"",
+    "description": "13.2-inch OLED 144Hz, Kirin 9000S, 12GB RAM, M-Pencil 3, and 10100mAh battery.",
+    "price": 699.99,
+    "category": "Tablets",
+    "image": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/1.webp",
+    "rating": 4.5,
+    "inStock": true,
+    "features": [
+      "13.2\" OLED",
+      "Kirin 9000S",
+      "M-Pencil 3",
+      "10100mAh"
+    ]
+  },
+  {
+    "name": "Marshall Major IV",
+    "description": "On-ear wireless headphones, 80+ hour battery, wireless charging, custom-tuned 40mm drivers, and foldable.",
+    "price": 129.99,
+    "category": "Audio",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods-max-silver/1.webp",
+    "rating": 4.5,
+    "inStock": true,
+    "features": [
+      "80hr Battery",
+      "Wireless Charging",
+      "40mm Drivers",
+      "Foldable"
+    ]
+  },
+  {
+    "name": "Marshall Emberton II",
+    "description": "Portable Bluetooth speaker with IP67, 30 hours battery, 360-degree sound, and Stack Mode.",
+    "price": 149.99,
+    "category": "Audio",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/amazon-echo-plus/1.webp",
+    "rating": 4.5,
+    "inStock": true,
+    "features": [
+      "IP67",
+      "30hr Battery",
+      "360° Sound",
+      "Stack Mode"
+    ]
+  },
+  {
+    "name": "Audio-Technica ATH-M50xBT2",
+    "description": "Studio-quality wireless headphones, 45mm drivers, 50hr battery, LDAC, and low-latency mode.",
+    "price": 199.99,
+    "category": "Audio",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods-max-silver/1.webp",
+    "rating": 4.6,
+    "inStock": true,
+    "features": [
+      "45mm Drivers",
+      "50hr Battery",
+      "LDAC",
+      "Studio Quality"
+    ]
+  },
+  {
+    "name": "Jabra Elite 85t",
+    "description": "Advanced ANC earbuds, 12mm semi-open speakers, HearThrough, 31hr total battery, and IPX4.",
+    "price": 179.99,
+    "category": "Audio",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/1.webp",
+    "rating": 4.5,
+    "inStock": true,
+    "features": [
+      "Advanced ANC",
+      "Semi-Open Design",
+      "31hr Battery",
+      "HearThrough"
+    ]
+  },
+  {
+    "name": "Skullcandy Crusher ANC 2",
+    "description": "Adjustable sensory bass, ANC, 50hr battery, personal sound profiles, and multipoint Bluetooth.",
+    "price": 149.99,
+    "category": "Audio",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods-max-silver/1.webp",
+    "rating": 4.3,
+    "inStock": true,
+    "features": [
+      "Sensory Bass",
+      "ANC",
+      "50hr Battery",
+      "Personal Sound"
+    ]
+  },
+  {
+    "name": "JBL Tune 770NC",
+    "description": "Wireless over-ear with Adaptive ANC, 44hr battery, JBL Pure Bass, multi-point connection, and foldable.",
+    "price": 79.99,
+    "category": "Audio",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods-max-silver/1.webp",
+    "rating": 4.3,
+    "inStock": true,
+    "features": [
+      "Adaptive ANC",
+      "44hr Battery",
+      "JBL Pure Bass",
+      "Foldable"
+    ]
+  },
+  {
+    "name": "Sony LinkBuds S",
+    "description": "Ultra-lightweight ANC earbuds at 4.8g, LDAC Hi-Res, adaptive sound control, 20hr total battery, and IPX4.",
+    "price": 149.99,
+    "category": "Audio",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/1.webp",
+    "rating": 4.4,
+    "inStock": true,
+    "features": [
+      "4.8g Ultra-Light",
+      "Adaptive Sound",
+      "LDAC Hi-Res",
+      "20hr Battery"
+    ]
+  },
+  {
+    "name": "Anker Soundcore Space A40",
+    "description": "ANC earbuds with 50hr total battery, LDAC, 10mm drivers, multi-point, IPX4, and 6 mics.",
+    "price": 59.99,
+    "category": "Audio",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/beats-flex-wireless-earphones/1.webp",
+    "rating": 4.4,
+    "inStock": true,
+    "features": [
+      "50hr Battery",
+      "LDAC",
+      "ANC",
+      "6 Mics"
+    ]
+  },
+  {
+    "name": "Logitech MX Keys Mini",
+    "description": "Compact wireless keyboard with backlit keys, USB-C, Bluetooth multi-device, and smart illumination.",
+    "price": 89.99,
+    "category": "Accessories",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-iphone-charger/1.webp",
+    "rating": 4.6,
+    "inStock": true,
+    "features": [
+      "Backlit",
+      "USB-C",
+      "Multi-Device",
+      "Smart Illumination"
+    ]
+  },
+  {
+    "name": "Logitech MX Master 3S",
+    "description": "Ergonomic wireless mouse with 8000 DPI, MagSpeed scroll, USB-C, quiet clicks, and multi-device.",
+    "price": 99.99,
+    "category": "Accessories",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-iphone-charger/1.webp",
+    "rating": 4.7,
+    "inStock": true,
+    "features": [
+      "8000 DPI",
+      "MagSpeed Scroll",
+      "Quiet Clicks",
+      "Multi-Device"
+    ]
+  },
+  {
+    "name": "Apple AirTag 4-Pack",
+    "description": "Precision Finding with Ultra Wideband, replaceable battery, IP67, and seamless Find My integration.",
+    "price": 99.99,
+    "category": "Accessories",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-magsafe-battery-pack/1.webp",
+    "rating": 4.5,
+    "inStock": true,
+    "features": [
+      "Ultra Wideband",
+      "Find My",
+      "IP67",
+      "Replaceable Battery"
+    ]
+  },
+  {
+    "name": "Samsung SmartTag2",
+    "description": "Bluetooth tracker with UWB, compass view, lost mode, IP67, and up to 500-day battery life.",
+    "price": 29.99,
+    "category": "Accessories",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-magsafe-battery-pack/1.webp",
+    "rating": 4.3,
+    "inStock": true,
+    "features": [
+      "UWB",
+      "Compass View",
+      "IP67",
+      "500-Day Battery"
+    ]
+  },
+  {
+    "name": "Anker 7-in-1 USB-C Hub",
+    "description": "USB-C hub with HDMI 4K, 100W PD pass-through, 2x USB-A 3.0, SD/microSD, and aluminum body.",
+    "price": 34.99,
+    "category": "Accessories",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-iphone-charger/1.webp",
+    "rating": 4.5,
+    "inStock": true,
+    "features": [
+      "HDMI 4K",
+      "100W PD",
+      "SD/microSD",
+      "Aluminum"
+    ]
+  },
+  {
+    "name": "Belkin MagSafe 3-in-1 Stand",
+    "description": "Wireless charging stand for iPhone, Apple Watch, and AirPods, 15W MagSafe, and premium design.",
+    "price": 139.99,
+    "category": "Accessories",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpower-wireless-charger/1.webp",
+    "rating": 4.6,
+    "inStock": true,
+    "features": [
+      "3-in-1 Charging",
+      "15W MagSafe",
+      "Watch + AirPods",
+      "Premium Stand"
+    ]
+  },
+  {
+    "name": "Garmin Forerunner 265",
+    "description": "AMOLED GPS running watch, training readiness, morning report, 13-day battery, and music storage.",
+    "price": 449.99,
+    "category": "Accessories",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-watch-series-4-gold/1.webp",
+    "rating": 4.7,
+    "inStock": true,
+    "features": [
+      "AMOLED GPS",
+      "Training Readiness",
+      "13-Day Battery",
+      "Music Storage"
+    ]
+  },
+  {
+    "name": "Fitbit Charge 6",
+    "description": "Fitness tracker with Google Maps, YouTube Music, built-in GPS, heart rate, and 7-day battery.",
+    "price": 149.99,
+    "category": "Accessories",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-watch-series-4-gold/1.webp",
+    "rating": 4.4,
+    "inStock": true,
+    "features": [
+      "Google Maps",
+      "Built-in GPS",
+      "7-Day Battery",
+      "YouTube Music"
+    ]
+  },
+  {
+    "name": "Xiaomi Smart Band 8",
+    "description": "Budget fitness band with 1.62-inch AMOLED, 190+ watch faces, SpO2, 16-day battery, and 5ATM.",
+    "price": 34.99,
+    "category": "Accessories",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-watch-series-4-gold/1.webp",
+    "rating": 4.3,
+    "inStock": true,
+    "features": [
+      "AMOLED",
+      "16-Day Battery",
+      "SpO2",
+      "5ATM"
+    ]
+  },
+  {
+    "name": "Ugreen Nexode 140W Charger",
+    "description": "140W GaN charger with 3 USB-C ports, PD 3.1, laptop compatible, and compact foldable plug.",
+    "price": 69.99,
+    "category": "Accessories",
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-iphone-charger/1.webp",
+    "rating": 4.5,
+    "inStock": true,
+    "features": [
+      "140W GaN",
+      "3x USB-C",
+      "PD 3.1",
+      "Foldable Plug"
+    ]
+  }
+]

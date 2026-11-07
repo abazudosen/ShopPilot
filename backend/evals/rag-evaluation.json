@@ -1,0 +1,122 @@
+[
+  {
+    "query": "How can I return a damaged item?",
+    "expectedDocumentId": "returns-policy",
+    "expectedAnswer": "Damaged items may be returned within 30 days. Contact support with your order number.",
+    "documents": [
+      {
+        "id": "returns-policy",
+        "text": "Damaged items may be returned within 30 days. Contact support with your order number."
+      },
+      {
+        "id": "shipping-faq",
+        "text": "Your order should arrive in three to five business days with standard delivery."
+      }
+    ]
+  },
+  {
+    "query": "When should my order arrive?",
+    "expectedDocumentId": "shipping-faq",
+    "expectedAnswer": "Your order should arrive in three to five business days with standard delivery.",
+    "documents": [
+      {
+        "id": "returns-policy",
+        "text": "Damaged items may be returned within 30 days. Contact support with your order number."
+      },
+      {
+        "id": "shipping-faq",
+        "text": "Your order should arrive in three to five business days with standard delivery."
+      }
+    ]
+  },
+  {
+    "query": "How long do I have to report a damaged product for a return?",
+    "expectedDocumentId": "returns-policy",
+    "expectedAnswer": "Damaged items may be returned within 30 days. Contact support with your order number.",
+    "documents": [
+      {
+        "id": "returns-policy",
+        "text": "Damaged items may be returned within 30 days. Contact support with your order number."
+      },
+      {
+        "id": "shipping-faq",
+        "text": "Your order should arrive in three to five business days with standard delivery."
+      }
+    ]
+  },
+  {
+    "query": "When is money refunded after a returned item is inspected?",
+    "expectedDocumentId": "refund-policy",
+    "expectedAnswer": "Once a returned item passes inspection, the refund is sent to the original payment method within 5 business days.",
+    "documents": [
+      {
+        "id": "refund-policy",
+        "text": "Once a returned item passes inspection, the refund is sent to the original payment method within 5 business days."
+      },
+      {
+        "id": "returns-policy",
+        "text": "Damaged items may be returned within 30 days. Contact support with your order number."
+      }
+    ]
+  },
+  {
+    "query": "What coverage comes with an accessory and what proof do I need?",
+    "expectedDocumentId": "warranty-faq",
+    "expectedAnswer": "Accessories include a one-year manufacturer warranty. Keep proof of purchase for warranty claims.",
+    "documents": [
+      {
+        "id": "warranty-faq",
+        "text": "Accessories include a one-year manufacturer warranty. Keep proof of purchase for warranty claims."
+      },
+      {
+        "id": "shipping-faq",
+        "text": "Your order should arrive in three to five business days with standard delivery."
+      }
+    ]
+  },
+  {
+    "query": "My delivery has taken more than a week, who should I contact?",
+    "expectedDocumentId": "shipping-delay-policy",
+    "expectedAnswer": "For orders delayed more than 7 business days, contact support with your order number.",
+    "documents": [
+      {
+        "id": "shipping-delay-policy",
+        "text": "For orders delayed more than 7 business days, contact support with your order number."
+      },
+      {
+        "id": "returns-policy",
+        "text": "Damaged items may be returned within 30 days. Contact support with your order number."
+      }
+    ]
+  },
+  {
+    "query": "When do you send the receipt to my email?",
+    "expectedDocumentId": "payment-receipt-faq",
+    "expectedAnswer": "A receipt is emailed to the address on your account after payment is confirmed.",
+    "documents": [
+      {
+        "id": "payment-receipt-faq",
+        "text": "A receipt is emailed to the address on your account after payment is confirmed."
+      },
+      {
+        "id": "shipping-faq",
+        "text": "Your order should arrive in three to five business days with standard delivery."
+      }
+    ]
+  },
+  {
+    "query": "How do I factory reset the portable speaker?",
+    "expectedDocumentId": "speaker-manual",
+    "expectedAnswer": "To reset the speaker, hold the power button for ten seconds until the indicator flashes.",
+    "documents": [
+      {
+        "id": "speaker-manual",
+        "text": "To reset the speaker, hold the power button for ten seconds until the indicator flashes."
+      },
+      {
+        "id": "warranty-faq",
+        "text": "Accessories include a one-year manufacturer warranty. Keep proof of purchase for warranty claims."
+      }
+    ]
+  }
+]

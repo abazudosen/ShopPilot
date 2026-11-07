@@ -1,0 +1,360 @@
+@baseUrl = http://localhost:3500/api
+@contentType = application/json
+
+### Seeded catalogue
+# @name products
+GET {{baseUrl}}/products
+
+@productId = {{products.response.body.$.products[0].id}}
+
+### Categories built from the seeded rows
+GET {{baseUrl}}/products/categories
+
+### Seeded product by id
+GET {{baseUrl}}/products/{{productId}}
+
+### Missing product returns 404
+GET {{baseUrl}}/products/does-not-exist
+
+### Products currently on a deal
+GET {{baseUrl}}/products/deals
+
+### Category filter against seeded data
+GET {{baseUrl}}/products?category=Smartphones
+
+### Search filter against seeded data
+GET {{baseUrl}}/products?search=macbook
+
+### Price range filter
+GET {{baseUrl}}/products?minPrice=200&maxPrice=800
+
+### Non numeric minPrice fails IsNumberString
+GET {{baseUrl}}/products?minPrice=cheap
+
+### Non numeric maxPrice fails IsNumberString
+GET {{baseUrl}}/products?maxPrice=expensive
+
+### Sign up a new buyer
+POST {{baseUrl}}/auth/signup
+Content-Type: {{contentType}}
+
+{
+  "email": "new.buyer@ai-ecommerce.com",
+  "name": "New Buyer",
+  "password": "admin123",
+  "role": "BUYER"
+}
+
+### Log in as the seeded buyer and capture the token
+# @name login
+POST {{baseUrl}}/auth/login
+Content-Type: {{contentType}}
+
+{
+  "email": "buyer@ai-ecommerce.com",
+  "password": "admin123"
+}
+
+@accessToken = {{login.response.body.$.accessToken}}
+
+### Wrong password is rejected
+POST {{baseUrl}}/auth/login
+Content-Type: {{contentType}}
+
+{
+  "email": "buyer@ai-ecommerce.com",
+  "password": "wrong-password"
+}
+
+### Rotate the token pair with the refresh token
+# @name refresh
+POST {{baseUrl}}/auth/refresh
+Authorization: Bearer {{login.response.body.$.refreshToken}}
+
+@rotatedAccessToken = {{refresh.response.body.$.accessToken}}
+@rotatedRefreshToken = {{refresh.response.body.$.refreshToken}}
+
+### Log out and clear the stored refresh token
+POST {{baseUrl}}/auth/logout
+Authorization: Bearer {{rotatedAccessToken}}
+
+### Refreshing after logout is rejected
+POST {{baseUrl}}/auth/refresh
+Authorization: Bearer {{rotatedRefreshToken}}
+
+### Log in as the seeded seller
+# @name sellerLogin
+POST {{baseUrl}}/auth/login
+Content-Type: {{contentType}}
+
+{
+  "email": "seller@ai-ecommerce.com",
+  "password": "admin123"
+}
+
+@sellerToken = {{sellerLogin.response.body.$.accessToken}}
+
+### Create a product as the seller
+# @name created
+POST {{baseUrl}}/products
+Content-Type: {{contentType}}
+Authorization: Bearer {{sellerToken}}
+
+{
+  "name": "Anker 737 Power Bank",
+  "description": "24000mAh power bank with 140W bidirectional charging and a smart display.",
+  "price": 129.99,
+  "category": "Mobile Accessories",
+  "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-magsafe-battery-pack/1.webp",
+  "features": ["24000mAh", "140W Output", "Smart Display", "USB-C PD"],
+  "rating": 4.6,
+  "inStock": true
+}
+
+### Update the seller's own product
+PATCH {{baseUrl}}/products/{{created.response.body.$.id}}
+Content-Type: {{contentType}}
+Authorization: Bearer {{sellerToken}}
+
+{
+  "inStock": false
+}
+
+### Products owned by this seller
+GET {{baseUrl}}/products/seller
+Authorization: Bearer {{sellerToken}}
+
+### A buyer cannot reach the seller listing
+GET {{baseUrl}}/products/seller
+Authorization: Bearer {{accessToken}}
+
+### Pick a product to order
+# @name orderProduct
+GET {{baseUrl}}/products
+
+@orderProductId = {{orderProduct.response.body.$.products[0].id}}
+
+### Start a Stripe test checkout for the logged in buyer
+# @name order
+POST {{baseUrl}}/orders/checkout
+Content-Type: {{contentType}}
+Idempotency-Key: {{$guid}}
+
+{
+  "items": [
+    { "productId": "{{orderProductId}}", "quantity": 2 }
+  ]
+}
+
+@orderId = {{order.response.body.$.orderId}}
+
+### Orders belonging to the logged in buyer
+GET {{baseUrl}}/orders
+Authorization: Bearer {{accessToken}}
+
+### One order by id
+GET {{baseUrl}}/orders/{{orderId}}
+Authorization: Bearer {{accessToken}}
+
+### Payment status updates after a signed Stripe webhook is received
+GET {{baseUrl}}/orders/{{orderId}}/payment-status
+Authorization: Bearer {{accessToken}}
+
+### Search through the same products route
+GET {{baseUrl}}/products?search=iphone
+
+### Natural language query ranked by meaning
+GET {{baseUrl}}/products?search=a laptop for video editing
+
+### Another semantic phrasing of the same intent
+GET {{baseUrl}}/products?search=something to listen to music on the train
+
+### Vague query that keyword search would miss
+GET {{baseUrl}}/products?search=gift for a photographer
+
+### Chat with the store, streamed back as server sent events
+POST {{baseUrl}}/chat
+Content-Type: {{contentType}}
+
+{
+  "message": "show me wireless headphones",
+  "history": []
+}
+
+### Pick a product to talk about
+# @name cartProduct
+GET {{baseUrl}}/products?search=JBL Clip 4
+
+@cartProductId = {{cartProduct.response.body.$.products[0].id}}
+@cartProductName = {{cartProduct.response.body.$.products[0].name}}
+@cartProductPrice = {{cartProduct.response.body.$.products[0].price}}
+
+### Ask it to add something to the cart
+POST {{baseUrl}}/chat
+Content-Type: {{contentType}}
+
+{
+  "message": "Add the first one to my cart",
+  "history": [],
+  "cart": []
+}
+
+### Send the current cart along so it can reason about it
+POST {{baseUrl}}/chat
+Content-Type: {{contentType}}
+
+{
+  "message": "What is in my cart right now and what does it come to?",
+  "history": [],
+  "cart": [
+    { "productId": "{{cartProductId}}", "name": "{{cartProductName}}", "price": {{cartProductPrice}}, "quantity": 2 }
+  ]
+}
+
+### Ask it to take me to the checkout page
+POST {{baseUrl}}/chat
+Content-Type: {{contentType}}
+
+{
+  "message": "Take me to the checkout page",
+  "history": []
+}
+
+### Search then add walks two tools in one turn
+POST {{baseUrl}}/chat
+Content-Type: {{contentType}}
+
+{
+  "message": "find me a gift under 50 dollars and add the best one to my cart",
+  "history": [],
+  "cart": []
+}
+
+### Add the same product twice in one sentence
+POST {{baseUrl}}/chat
+Content-Type: {{contentType}}
+
+{
+  "message": "add the best one to my cart, then add it again",
+  "history": [],
+  "cart": []
+}
+
+### The answer must come from the cart we handed over
+POST {{baseUrl}}/chat
+Content-Type: {{contentType}}
+
+{
+  "message": "What is my total right now?",
+  "history": [],
+  "cart": [
+    { "productId": "{{cartProductId}}", "name": "{{cartProductName}}", "price": {{cartProductPrice}}, "quantity": 2 }
+  ]
+}
+
+### Record a product view for the signed in buyer
+POST {{baseUrl}}/history/event
+Content-Type: {{contentType}}
+Authorization: Bearer {{login.response.body.$.accessToken}}
+
+{
+  "type": "VIEW",
+  "productId": "{{productId}}"
+}
+
+### Record a search
+POST {{baseUrl}}/history/event
+Content-Type: {{contentType}}
+Authorization: Bearer {{login.response.body.$.accessToken}}
+
+{
+  "type": "SEARCH",
+  "query": "laptop for video editing"
+}
+
+### Record a cart add with a quantity
+POST {{baseUrl}}/history/event
+Content-Type: {{contentType}}
+Authorization: Bearer {{login.response.body.$.accessToken}}
+
+{
+  "type": "CART_ADD",
+  "productId": "{{productId}}",
+  "quantity": 2
+}
+
+### An unknown event type fails IsEnum
+POST {{baseUrl}}/history/event
+Content-Type: {{contentType}}
+Authorization: Bearer {{login.response.body.$.accessToken}}
+
+{
+  "type": "WISHLIST",
+  "productId": "{{productId}}"
+}
+
+### The taste profile built from those events
+GET {{baseUrl}}/history/profile
+Authorization: Bearer {{login.response.body.$.accessToken}}
+
+### Personalized recommendations for the signed in buyer
+GET {{baseUrl}}/products/recommendations
+Authorization: Bearer {{login.response.body.$.accessToken}}
+
+### The same route falls back to popular picks for a guest
+GET {{baseUrl}}/products/recommendations
+
+### Cancel that order
+PATCH {{baseUrl}}/orders/{{order.response.body.$.id}}/cancel
+Authorization: Bearer {{login.response.body.$.accessToken}}
+
+### Cancelling twice is rejected
+PATCH {{baseUrl}}/orders/{{order.response.body.$.id}}/cancel
+Authorization: Bearer {{login.response.body.$.accessToken}}
+
+### Open a support ticket as the signed in buyer
+POST {{baseUrl}}/tickets
+Content-Type: {{contentType}}
+Authorization: Bearer {{login.response.body.$.accessToken}}
+
+{
+  "subject": "Cancelled by mistake",
+  "message": "I cancelled that order by accident and I would like to reorder it."
+}
+
+### A guest can open a ticket by leaving an email
+POST {{baseUrl}}/tickets
+Content-Type: {{contentType}}
+
+{
+  "email": "stranger@example.com",
+  "subject": "Delivery question",
+  "message": "Do you deliver to Guwahati on a Sunday?"
+}
+
+### Tickets belonging to the signed in buyer
+GET {{baseUrl}}/tickets
+Authorization: Bearer {{login.response.body.$.accessToken}}
+
+### Start an unpaid Stripe checkout for the agent to cancel
+# @name cancelOrder
+POST {{baseUrl}}/orders/checkout
+Content-Type: {{contentType}}
+Idempotency-Key: {{$guid}}
+Authorization: Bearer {{login.response.body.$.accessToken}}
+
+{
+  "items": [
+    { "productId": "{{orderProductId}}", "quantity": 1 }
+  ]
+}
+
+### Ask the agent to cancel my last order
+POST {{baseUrl}}/chat
+Content-Type: {{contentType}}
+Authorization: Bearer {{login.response.body.$.accessToken}}
+
+{
+  "message": "Please cancel my last order",
+  "history": []
+}
